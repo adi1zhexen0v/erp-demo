@@ -1,0 +1,68 @@
+{
+  "loading": "Загрузка...",
+  "loadingCities": "Загрузка списка городов...",
+  "statusIndicator": {
+    "amendment": {
+      "cancelled": "Отменено",
+      "applied": "Применено",
+      "default": "В ожидании"
+    },
+    "jobApplication": {
+      "contractSigned": "Договор подписан",
+      "decision": "Отклонено",
+      "jobAppPending": "На доработке",
+      "jobAppReview": "Ожидает решения по заявлению",
+      "default": "Одобрено"
+    },
+    "order": {
+      "orderPending": "В ожидании",
+      "default": "Завершено"
+    }
+  },
+  "prompt_form": {
+    "confirm": "Подтвердить",
+    "cancel": "Отмена",
+    "submitting": "Отправка..."
+  },
+  "workingDays": {
+    "validation": {
+      "minDays": "Необходимо выбрать минимум 1 день",
+      "maxDays": "Можно выбрать максимум 6 дней"
+    }
+  },
+  "trustMeStatus": {
+    "draft": "Черновик",
+    "notSigned": "Не подписан",
+    "signedByCompany": "Подписан компанией",
+    "signedByClient": "Подписан клиентом",
+    "fullySigned": "Полностью подписан",
+    "revokedByCompany": "Отозван компанией",
+    "companyInitiatedTermination": "Компания инициировала расторжение",
+    "clientInitiatedTermination": "Клиент инициировал расторжение",
+    "clientRefusedTermination": "Клиент отказался от расторжения",
+    "terminated": "Расторгнут",
+    "clientRefusedToSign": "Клиент отказался подписывать договор"
+  },
+  "organizationTypes": {
+    "llp": {
+      "fullTitle": "Товарищество с ограниченной ответственностью",
+      "abbreviation": "ТОО"
+    },
+    "llc": {
+      "fullTitle": "Общество с ограниченной ответственностью",
+      "abbreviation": "ООО"
+    },
+    "jsc": {
+      "fullTitle": "Акционерное общество",
+      "abbreviation": "АО"
+    },
+    "ip": {
+      "fullTitle": "Индивидуальный предприниматель",
+      "abbreviation": "ИП"
+    },
+    "pf": {
+      "fullTitle": "Общественный фонд",
+      "abbreviation": "ОФ"
+    }
+  }
+}

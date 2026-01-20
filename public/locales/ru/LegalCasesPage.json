@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Правовые дела — Юридическая помощь | SEN Group",
+    "description": "Правовые дела в системе управления SEN Group."
+  },
+  "breadcrumbs": {
+    "legal": "Юридическая помощь",
+    "cases": "Правовые дела"
+  },
+  "header": {
+    "title": "Правовые дела",
+    "newForm": "Записаться на консультацию"
+  },
+  "cards": {
+    "status": {
+      "inProgress": "В процессе"
+    },
+    "priority": {
+      "label": "Приоритет",
+      "medium": "Средний"
+    },
+    "fields": {
+      "startDate": "Дата начала"
+    },
+    "actions": {
+      "edit": "Редактировать",
+      "details": "Подробнее"
+    }
+  }
+}

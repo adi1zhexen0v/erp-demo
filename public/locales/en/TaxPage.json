@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "title": "Tax — Accounting | SEN Group",
+    "description": "View CIT and Payroll Tax declarations"
+  },
+  "title": "Tax Reporting",
+  "breadcrumbs": {
+    "accounting": "Accounting",
+    "tax": "Tax"
+  },
+  "filters": {
+    "taxType": "Tax Type",
+    "year": "Year",
+    "quarter": "Quarter",
+    "endDate": "End Date",
+    "includeGph": "Include GPH",
+    "reset": "Reset"
+  },
+  "taxTypes": {
+    "cit": "Corporate Income Tax",
+    "payroll": "Payroll Tax"
+  },
+  "tabs": {
+    "main": {
+      "cit": "Corporate Income Tax",
+      "payroll": "Personal Income Tax and Social Tax"
+    },
+    "cit": {
+      "100.00": "100.00 Main",
+      "100.01": "100.01 Expenses",
+      "100.02": "100.02 FA",
+      "100.07": "100.07 Balance"
+    },
+    "payroll": {
+      "200.00": "200.00 Main",
+      "200.01": "200.01 Details",
+      "200.05": "200.05 By Employees"
+    }
+  },
+  "forms": {
+    "cit": {
+      "title": "CIT Declaration",
+      "description": "Generate tax reporting for corporate income tax"
+    },
+    "payroll": {
+      "title": "PIT and ST Declaration",
+      "description": "Generate tax reporting for individual income tax and social tax"
+    },
+    "generateButton": "Generate Declaration",
+    "100.00": {
+      "organization": "Organization",
+      "bin": "BIN",
+      "period": "Period",
+      "income": "Income",
+      "deductions": "Deductions",
+      "taxCalculation": "CIT Calculation",
+      "accounts": "Account Details"
+    },
+    "200.00": {
+      "organization": "Organization",
+      "quarter": "Quarter",
+      "period": "Period",
+      "monthlyBreakdown": "Monthly Breakdown",
+      "quarterTotal": "Quarter Total"
+    }
+  },
+  "messages": {
+    "selectFilters": "Select parameters to load data",
+    "noData": "No data for selected period",
+    "error": "Error loading data"
+  },
+  "export": {
+    "download": "Download",
+    "csv": "Export CSV",
+    "json": "Export JSON"
+  },
+  "toast": {
+    "info": "Declaration data is generated based on accounting records for the selected period"
+  },
+  "form10001": {
+    "title": "Expenses for acquired goods, works, services",
+    "appendix": "Appendix 1 to CIT Declaration (for non-VAT payers)",
+    "code": "Code",
+    "rowNumber": "№"
+  },
+  "form10002": {
+    "title": "Deductions for Fixed Assets",
+    "appendix": "Appendix 2 to CIT Declaration",
+    "row": "Code",
+    "row001": "Cost balance at the beginning",
+    "row002": "Fixed assets received",
+    "row003": "Fixed assets disposed",
+    "row006": "Depreciation",
+    "row005": "Cost balance at the end",
+    "row011": "Total deductions for fixed assets",
+    "totalDeductions": "Total deductions for fixed assets (→ 100.00.026):"
+  },
+  "form10007": {
+    "title": "Components of annual financial statements (Balance)",
+    "appendix": "Appendix 7 to CIT Declaration",
+    "code": "Code",
+    "name": "Name",
+    "atBeginning": "At beginning",
+    "atEnd": "At end",
+    "controlRatio": "Control ratio",
+    "controlFormula": "Assets = Liabilities + Equity"
+  },
+  "months": {
+    "january": "January",
+    "february": "February",
+    "march": "March",
+    "april": "April",
+    "may": "May",
+    "june": "June",
+    "july": "July",
+    "august": "August",
+    "september": "September",
+    "october": "October",
+    "november": "November",
+    "december": "December"
+  },
+  "quarters": {
+    "q1": "Q1 (Jan-Mar)",
+    "q2": "Q2 (Apr-Jun)",
+    "q3": "Q3 (Jul-Sep)",
+    "q4": "Q4 (Oct-Dec)"
+  },
+  "employeeStatus": {
+    "01": "Employee",
+    "02": "Part-time",
+    "03": "Contractor"
+  },
+  "employeeCategory": {
+    "01": "Regular",
+    "02": "Disabled I-II group",
+    "03": "Disabled III group",
+    "04": "Retiree",
+    "05": "Foreigner"
+  },
+  "common": {
+    "form": "Form",
+    "for": "for",
+    "year": "year",
+    "quarter": "quarter",
+    "code": "Code",
+    "indicator": "Indicator",
+    "account": "Account",
+    "total": "Total",
+    "name": "Name",
+    "amount": "Amount",
+    "binIin": "BIN/IIN",
+    "vendor": "Vendor",
+    "expenseType": "Expense Type",
+    "expenseTypeTotal": "Total by Expense Types",
+    "expenseTypeName": "Expense Type",
+    "financialServices": "Financial Services",
+    "advertisingServices": "Advertising Services",
+    "consultingServices": "Consulting Services",
+    "marketingServices": "Marketing Services",
+    "designServices": "Design Services",
+    "engineeringServices": "Engineering Services",
+    "otherServices": "Other Services and Works",
+    "allTotal": "Total",
+    "income": "Income",
+    "salesRevenue": "Sales Revenue",
+    "interestIncome": "Interest Income",
+    "royaltyIncome": "Royalty Income",
+    "rentalIncome": "Rental Income",
+    "assetDisposalGain": "Asset Disposal Gain",
+    "grantIncome": "Grants and Targeted Funding",
+    "foreignExchangeGain": "Foreign Exchange Gain",
+    "otherIncome": "Other Income",
+    "totalGrossIncome": "Total Gross Income",
+    "deductions": "Deductions",
+    "costOfSales": "Cost of Sales",
+    "laborCosts": "Labor Costs",
+    "socialContributions": "Social Contributions",
+    "interestExpense": "Interest Expense",
+    "fixedAssetDeductions": "Fixed Asset Deductions",
+    "taxesAndDuties": "Taxes and Duties",
+    "depreciation": "Depreciation",
+    "adminExpenses": "Administrative Expenses",
+    "otherExpenses": "Other Deductions",
+    "totalDeductions": "Total Deductions",
+    "taxCalculation": "CIT Calculation",
+    "taxableIncome": "Taxable Income",
+    "exemptIncome": "Exempt Income",
+    "totalTaxableIncome": "Total Taxable Income",
+    "lossCarryforward": "Loss Carryforward",
+    "withLosses": "With Losses",
+    "citRate": "CIT Rate",
+    "citCalculated": "CIT Calculated",
+    "foreignTaxCredit": "Foreign Tax Credit",
+    "citPayable": "CIT Payable",
+    "totalCit": "Total CIT",
+    "accountDetails": "Income Account Details",
+    "expenseAccountDetails": "Expense Account Details",
+    "monthlyBreakdown": "Monthly Breakdown",
+    "detailedMonthlyBreakdown": "Detailed Monthly Breakdown",
+    "sectionIpn": "Individual Income Tax",
+    "sectionOpvSnSo": "OPV, SN, SO",
+    "accruedIncome": "Accrued Income",
+    "ipnCalculated": "IPN Calculated",
+    "paidIncome": "Paid Income",
+    "taxableIncomeLabel": "Taxable Income",
+    "opvBase": "OPV Base",
+    "snBase": "SN Base",
+    "soBase": "SO Base (Salary - OPV)",
+    "ipnPayable": "IPN Payable",
+    "opvPayable": "OPV Payable",
+    "vosmsEmployee": "VOSMS Employee",
+    "socialTax": "Social Tax (Art. 485, para. 1)",
+    "socialContributionsLabel": "Social Contributions",
+    "vosmsEmployer": "VOSMS Employer",
+    "opvr": "OPVR",
+    "deductionsFromSalary": "Deductions from Salary",
+    "employerExpenses": "Employer Expenses",
+    "fullName": "Full Name",
+    "status": "Status",
+    "category": "Category",
+    "accrued": "Accrued",
+    "opv": "OPV",
+    "vosmsEmployeeShort": "VOSMS Emp.",
+    "deduction": "Deduction",
+    "ipn": "IPN",
+    "sn": "SN",
+    "so": "SO",
+    "snPayable": "SN Payable",
+    "vosmsEmployerShort": "VOSMS Empl.",
+    "assets": "Assets",
+    "cash": "Cash",
+    "inventory": "Inventory",
+    "vatReceivable": "Tax Assets (VAT)",
+    "fixedAssets": "Fixed Assets",
+    "intangibles": "Intangible Assets",
+    "totalAssets": "Total Assets",
+    "liabilities": "Liabilities",
+    "taxLiabilities": "Tax Liabilities",
+    "socialLiabilities": "Social Liabilities",
+    "accountsPayable": "Accounts Payable",
+    "totalLiabilities": "Total Liabilities",
+    "equity": "Equity",
+    "charterCapital": "Charter Capital",
+    "retainedEarnings": "Retained Earnings",
+    "totalEquity": "Total Equity",
+    "group": "group"
+  }
+}

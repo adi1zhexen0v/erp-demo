@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Қаржы | SEN Group",
+    "titleSection": "{{section}} — Қаржы | SEN Group",
+    "description": "Бюджет пен қаржыларды басқару SEN Group жүйесінде"
+  },
+  "breadcrumbs": {
+    "finance": "Қаржы"
+  },
+  "page": {
+    "title": "Қаржы",
+    "errorLoading": "Деректерді жүктеу қатесі",
+    "noData": "Деректер жоқ",
+    "emptyState": "Көрсетуге арналған деректер жоқ",
+    "retry": "Қайталау"
+  },
+  "sections": {
+    "admin": "Әкімшілік шығыстар",
+    "mto": "Материалдық-техникалық қамтамасыз ету",
+    "direct": "Тікелей шығыстар (АПШ)",
+    "adminShort": "Әкімшілік",
+    "mtoShort": "Материалдық-техникалық",
+    "directShort": "Тікелей шығыстар",
+    "short": {
+      "admin": "Әкімшілік",
+      "mto": "Материалдық-техникалық",
+      "direct": "Тікелей шығыстар"
+    }
+  },
+  "kpi": {
+    "title": "Бюджетті орындаудың жалпы прогрессі",
+    "plannedBudget": "Жоспарлы бюджет",
+    "actualExpenses": "Нақты шығыстар",
+    "remaining": "Қалдық"
+  },
+  "chart": {
+    "title": "Қанша ақша бөлінген және неге",
+    "emptyState": "Көрсетуге арналған деректер жоқ",
+    "planned": "Бөлінген:",
+    "spent": "Жұмсалған:",
+    "remaining": "Қалған:",
+    "execution": "Орындалу:"
+  },
+  "footer": {
+    "total": "Смета бойынша барлығы",
+    "totalDescription": "Барлық бөлімдердің сомасы",
+    "ofPlanned": "{{amount}} жоспарлы бюджеттен"
+  },
+  "section": {
+    "planned": "Жоспарланған",
+    "spent": "Жұмсалған",
+    "remaining": "Қалдық",
+    "execution": "Орындалу",
+    "noExpenses": "Бұл кезеңде шығыстар жоқ",
+    "itemsTableTitle": "Операциялар сипаттамасы:"
+  },
+  "table": {
+    "name": "Атауы",
+    "date": "Күні",
+    "account": "Жүргізу",
+    "amount": "Сома"
+  },
+  "errors": {
+    "budgetExceeded": "\"{{section}}\" бөлімінің бюджеті асып кетті",
+    "limit": "Лимит:",
+    "spent": "Жұмсалған:",
+    "available": "Қолжетімді:",
+    "requested": "Сұралған:",
+    "close": "Жабу"
+  }
+}

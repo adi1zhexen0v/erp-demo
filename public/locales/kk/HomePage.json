@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "Басты",
+    "description": "Қаржылық дашборд"
+  },
+  "title": "Басты",
+  "welcome": {
+    "title": "Қайта оралуыңызбен, {{userName}}",
+    "subtitle": "Төменде — «Sen Digital» БҚ-ның ағымдағы жылға қаржылық жағдайының қысқаша шолуы.",
+    "fallbackTitle": "Қош келдіңіз"
+  },
+  "periodSelector": {
+    "title": "Кезеңді таңдау",
+    "year": "Жыл",
+    "month": "Ай",
+    "allYear": "Бүкіл жыл",
+    "refresh": "Жаңарту"
+  },
+  "summary": {
+    "expenses": "Шығындар",
+    "liabilities": "Міндеттемелер",
+    "cash": "Ақшалай қаражат",
+    "total": "Барлығы",
+    "noAccounts": "Деректер жоқ"
+  },
+  "breakdown": {
+    "title": "Есептің бөлшектемесі",
+    "back": "Артқа",
+    "byCounter": "Корреспонденттік есептер бойынша",
+    "bySource": "Көздер бойынша",
+    "account": "Есеп",
+    "amount": "Сома",
+    "percentage": "Пайыз",
+    "entries": "Жазбалар"
+  },
+  "entries": {
+    "title": "Журнал жазбалары",
+    "back": "Артқа",
+    "date": "Күні",
+    "debit": "Дебет",
+    "credit": "Кредит",
+    "amount": "Сома",
+    "description": "Сипаттама",
+    "noEntries": "Жазбалар жоқ",
+    "total": "Барлығы"
+  },
+  "loading": {
+    "summary": "Қорытындыны жүктеу...",
+    "breakdown": "Бөлшектемені жүктеу...",
+    "entries": "Жазбаларды жүктеу..."
+  },
+  "errors": {
+    "loadSummary": "Қорытындыны жүктеу қатесі",
+    "loadBreakdown": "Бөлшектемені жүктеу қатесі",
+    "loadEntries": "Жазбаларды жүктеу қатесі"
+  }
+}
+

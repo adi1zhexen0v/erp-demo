@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Жалға алу — Есеп | SEN Group",
+    "description": "Көлік пен үй-жайларды жалға алуды басқару"
+  },
+  "title": "Жалға алу",
+  "breadcrumbs": {
+    "accounting": "Есеп",
+    "rentals": "Жалға алу"
+  },
+  "tabs": {
+    "contracts": "Келісімдер",
+    "payments": "Төлемдер"
+  },
+  "header": {
+    "createPayment": "Төлем жасау"
+  },
+  "filters": {
+    "searchPlaceholder": "Жеткізуші, АВР нөмірі бойынша іздеу...",
+    "period": "АВР кезеңі",
+    "typePlaceholder": "Жалға алу түрі",
+    "statusPlaceholder": "Мәртебе",
+    "reset": "Тазалау",
+    "type": {
+      "vehicle": "Көлікті жалға алу",
+      "premises": "Үй-жайды жалға алу"
+    },
+    "status": {
+      "draft": "Жоба",
+      "approved": "Бекітілді",
+      "paid": "Төленді"
+    }
+  },
+  "section": {
+    "title": "Төлемдер",
+    "subtitle": "Жалға алу төлемдерінің тізімі"
+  },
+  "table": {
+    "paymentNumber": "Төлем №",
+    "type": "Түр",
+    "contract": "Келісім",
+    "period": "Кезең",
+    "amount": "Сома",
+    "status": "Мәртебе",
+    "avrDate": "АВР күні",
+    "actions": "Әрекеттер",
+    "actionItems": {
+      "view": "Көру",
+      "edit": "Өңдеу",
+      "approve": "Бекіту",
+      "approving": "Бекіту...",
+      "markPaid": "Төленген деп белгілеу",
+      "markingPaid": "Белгілеу...",
+      "delete": "Жою",
+      "deleting": "Жою..."
+    }
+  },
+  "status": {
+    "draft": "Жоба",
+    "approved": "Бекітілді",
+    "paid": "Төленді"
+  },
+  "modals": {
+    "create": {
+      "title": "Төлем жасау",
+      "uploadDocument": "АВР құжатын жүктеу",
+      "type": {
+        "label": "Жалға алу түрі",
+        "vehicle": "Көлікті жалға алу",
+        "premises": "Үй-жайды жалға алу"
+      },
+      "vehicleContract": "Көлікті жалға алу келісімі",
+      "premisesContract": "Үй-жайды жалға алу келісімі",
+      "selectContract": "Келісімді таңдаңыз",
+      "vendorName": "Жеткізуші атауы",
+      "vendorNamePlaceholder": "Жеткізуші атауын енгізіңіз",
+      "vendorBin": "Жеткізуші БСН (міндетті емес)",
+      "vendorBinPlaceholder": "БСН енгізіңіз",
+      "month": "Ай",
+      "selectMonth": "Айды таңдаңыз",
+      "year": "Жыл",
+      "selectYear": "Жылды таңдаңыз",
+      "period": "Кезең",
+      "periodStart": "Кезең басы",
+      "periodEnd": "Кезең соңы",
+      "periodDescription": "Кезең сипаттамасы",
+      "periodDescriptionPlaceholder": "Мысалы: Қаңтар 2026",
+      "description": "Қызмет сипаттамасы",
+      "descriptionPlaceholder": "Жалға алу қызметінің сипаттамасы",
+      "amountTotal": "ҚҚС-пен сома",
+      "vatRate": "ҚҚС мөлшерлемесі",
+      "avrNumber": "АВР нөмірі",
+      "avrNumberPlaceholder": "AVR-001",
+      "avrDate": "АВР күні",
+      "avrDateError": "АВР күні кезең басталу күнінен ертерек бола алмайды",
+      "ocrSuccess": "Деректер құжаттан сәтті алынды",
+      "vendorCreationFailed": "Жеткізушіні құру мүмкін болмады. Төлем жеткізуші ID-сыз жалғасады.",
+      "noContractsAvailable": "Қолжетімді қол қойылған келісімдер жоқ",
+      "selectContractFirst": "Алдымен келісімді таңдаңыз",
+      "uploadOrManual": "Сіз құжаттың сканын жүктей аласыз немесе деректерді қолмен енгізе аласыз",
+      "contract": "Келісім",
+      "create": "Жасау",
+      "creating": "Жасалуда...",
+      "cancel": "Болдырмау"
+    },
+    "edit": {
+      "title": "Төлемді өңдеу",
+      "periodStart": "Кезең басы",
+      "periodEnd": "Кезең соңы",
+      "periodDescription": "Кезең сипаттамасы",
+      "periodDescriptionPlaceholder": "Мысалы: Қаңтар 2026",
+      "amountTotal": "ҚҚС-пен сома",
+      "vatRate": "ҚҚС мөлшерлемесі",
+      "avrNumber": "АВР нөмірі",
+      "avrNumberPlaceholder": "AVR-001",
+      "avrDate": "АВР күні",
+      "update": "Сақтау",
+      "updating": "Сақталуда...",
+      "cancel": "Болдырмау"
+    },
+    "details": {
+      "title": "Төлем мәліметтері",
+      "loading": "Жүктелуде...",
+      "paymentNumber": "Төлем нөмірі",
+      "type": "Жалға алу түрі",
+      "period": "Кезең",
+      "status": "Мәртебе",
+      "amountNet": "ҚҚС-сыз сома",
+      "vatAmount": "ҚҚС сомасы",
+      "amountTotal": "ҚҚС-пен сома",
+      "vatRate": "ҚҚС мөлшерлемесі",
+      "avrNumber": "АВР нөмірі",
+      "avrDate": "АВР күні",
+      "vendor": "Жеткізуші",
+      "vendorBin": "Жеткізуші БСН",
+      "approvedAt": "Бекітілді",
+      "paidAt": "Төленді"
+    }
+  },
+  "messages": {
+    "noResults": "Нәтижелер жоқ",
+    "error": "Қате орын алды",
+    "errorTitle": "Қате",
+    "createSuccessTitle": "Төлем жасалды",
+    "createSuccessText": "Төлем сәтті жасалды",
+    "createErrorText": "Төлемді жасау мүмкін болмады",
+    "updateSuccessTitle": "Төлем жаңартылды",
+    "updateSuccessText": "Төлем сәтті жаңартылды",
+    "updateErrorText": "Төлемді жаңарту мүмкін болмады",
+    "approveSuccessTitle": "Төлем бекітілді",
+    "approveSuccessText": "Төлем сәтті бекітілді",
+    "approveErrorText": "Төлемді бекіту мүмкін болмады",
+    "markPaidSuccessTitle": "Төлем төленген деп белгіленді",
+    "markPaidSuccessText": "Төлем сәтті төленген деп белгіленді",
+    "markPaidErrorText": "Төлемді төленген деп белгілеу мүмкін болмады",
+    "deleteSuccessTitle": "Төлем жойылды",
+    "deleteSuccessText": "Төлем сәтті жойылды",
+    "deleteErrorText": "Төлемді жою мүмкін болмады",
+    "budgetLimitExceededTitle": "Бюджет лимиті асып кетті",
+    "budgetLimitExceededText": "«{{section}}» бөлімі үшін бюджет лимиті асып кетті. Лимит: {{limit}}, жұмсалған: {{spent}}, сұралған: {{requested}}, қол жетімді: {{available}}",
+    "ocrErrorText": "Құжаттан деректерді алу мүмкін болмады",
+    "loader": {
+      "extractingOCR": {
+        "text": "Құжаттан деректерді алу",
+        "additionalText": "Күте тұрыңыз"
+      }
+    }
+  },
+  "contracts": {
+    "vehicleFormat": "Келісім №{{id}} - {{details}}",
+    "premisesFormat": "Келісім №{{id}} - {{details}}"
+  },
+  "confirm": {
+    "approveTitle": "Төлемді бекіту керек пе?",
+    "approveText": "Сіз бұл төлемді бекіткіңіз келетініне сенімдісіз бе?",
+    "approveConfirm": "Бекіту",
+    "markPaidTitle": "Төленген деп белгілеу керек пе?",
+    "markPaidText": "Сіз бұл төлемді төленген деп белгілегіңіз келетініне сенімдісіз бе?",
+    "markPaidConfirm": "Белгілеу",
+    "deleteTitle": "Төлемді жою керек пе?",
+    "deleteText": "Сіз бұл төлемді жойғыңыз келетініне сенімдісіз бе?",
+    "deleteConfirm": "Жою",
+    "cancel": "Болдырмау"
+  },
+  "prompt": {
+    "ok": "Жабу"
+  },
+  "prompt_form": {
+    "confirm": "Растау",
+    "cancel": "Бас тарту",
+    "submitting": "Жіберілуде..."
+  }
+}

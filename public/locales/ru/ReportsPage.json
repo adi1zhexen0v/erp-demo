@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "title": "Финансовая отчётность — Бухгалтерия | SEN Group",
+    "description": "Официальная финансовая отчётность: ОСВ, ОПиУ, Баланс в системе управления SEN Group."
+  },
+  "breadcrumbs": {
+    "accounting": "Бухгалтерия",
+    "reports": "Финансовая отчётность"
+  },
+  "title": "Финансовая отчётность",
+  "titleForPeriod": "Финансовая отчётность за {{period}}",
+  "periodSelector": {
+    "title": "Выбор периода",
+    "description": "Выберите год и месяц для отображения финансовой отчетности",
+    "allYear": "Весь год",
+    "yearPlaceholder": "Год",
+    "monthPlaceholder": "Месяц"
+  },
+  "tabs": {
+    "trialBalance": "Оборотно-сальдовая ведомость",
+    "plReport": "Отчёт о прибылях и убытках",
+    "balanceSheet": "Бухгалтерский баланс"
+  },
+  "dateFilter": {
+    "rangeLabel": "Период",
+    "rangePlaceholder": "Выберите период",
+    "balanceSheetLabel": "На дату",
+    "balanceSheetPlaceholder": "Выберите дату"
+  },
+  "trialBalance": {
+    "title": "Оборотно-сальдовая ведомость",
+    "forPeriod": "за",
+    "period": "Период",
+    "balanced": "Обороты сходятся (Дт = Кт)",
+    "unbalanced": "Обороты не сходятся (Дт ≠ Кт)",
+    "table": {
+      "code": "Счёт",
+      "name": "Наименование",
+      "openingDebit": "Сальдо нач. (Дт)",
+      "openingCredit": "Сальдо нач. (Кт)",
+      "debitTurnover": "Оборот (Дт)",
+      "creditTurnover": "Оборот (Кт)",
+      "closingDebit": "Сальдо кон. (Дт)",
+      "closingCredit": "Сальдо кон. (Кт)",
+      "total": "ИТОГО"
+    }
+  },
+  "plReport": {
+    "period": "Период",
+    "revenue": "ДОХОДЫ",
+    "expenses": "РАСХОДЫ",
+    "expenseBreakdown": "Детализация расходов",
+    "netIncome": "Чистая прибыль",
+    "netLoss": "Чистый убыток",
+    "totalRevenue": "Общие доходы",
+    "totalExpenses": "Общие расходы",
+    "category": "Категория",
+    "title": "Отчет о Прибылях и Убытках (ОПиУ)",
+    "revenueSection": "Доходы",
+    "expensesSection": "Расходы",
+    "noRevenue": "Нет доходов",
+    "totalRevenueLabel": "Итого доходы",
+    "totalExpensesLabel": "Итого расходы",
+    "totalExpensesCode": "Итого {{code}}:",
+    "profitLoss": "Прибыль/Убыток:",
+    "formula": "Формула:",
+    "payrollFormula": "ФОТ ({{payroll}}) + Прочие ({{other}}) = {{total}}",
+    "resultFormula": "Результат = Доходы - Расходы = {{revenue}} - {{expenses}} = {{netIncome}}",
+    "note": "В ОПиУ расходы учитываются по методу начисления. Товары и НМА капитализируются и не отражаются в прибыли и убытках.",
+    "error": "Ошибка загрузки данных",
+    "noData": "Нет данных",
+    "breakdownOther": "Прочие расходы",
+    "table": {
+      "code": "Счёт",
+      "name": "Наименование",
+      "amount": "Сумма",
+      "totalRevenue": "ИТОГО ДОХОДЫ",
+      "totalExpenses": "ИТОГО РАСХОДЫ"
+    },
+    "breakdown": {
+      "payroll": "Заработная плата",
+      "opvr": "ОПВР 2.5%",
+      "so": "СО 5%",
+      "oosms": "ОСМС 3%",
+      "sn": "СН 11%",
+      "purchase": "Закупки и услуги",
+      "depreciation": "Амортизация",
+      "other": "Прочее"
+    }
+  },
+  "balanceSheet": {
+    "asOfDate": "На дату",
+    "balanced": "Сбалансировано",
+    "unbalanced": "Несбалансировано",
+    "assets": "АКТИВЫ",
+    "liabilitiesEquity": "ПАССИВЫ",
+    "totalAssets": "ИТОГО АКТИВЫ",
+    "totalLiabilitiesEquity": "ИТОГО ПАССИВЫ",
+    "total": "Итого",
+    "title": "Бухгалтерский баланс",
+    "assetsSection": "Активы",
+    "liabilitiesSection": "Обязательства",
+    "equitySection": "Капитал",
+    "totalAssetsLabel": "Итого активы",
+    "totalLiabilitiesLabel": "Итого обязательства",
+    "totalEquityLabel": "Итого капитал",
+    "passiveLabel": "Баланс",
+    "balanceFormula": "Балансовое уравнение:",
+    "balanceEquation": "Активы = Обязательства + Капитал",
+    "balanceEquationFormula": "{{assets}} = {{liabilities}} + {{equity}} = {{total}}",
+    "balanceStatusBalanced": "Баланс сходится",
+    "balanceStatusUnbalanced": "Баланс не сходится",
+    "balanceStatusFormula": "Баланс сходится",
+    "error": "Ошибка загрузки данных",
+    "noData": "Нет данных",
+    "keyIndicators": {
+      "title": "КЛЮЧЕВЫЕ ПОКАЗАТЕЛИ",
+      "cash": "Денежные средства",
+      "fixedAssets": "Основные средства",
+      "retainedEarnings": "Нераспред. прибыль"
+    },
+    "table": {
+      "account": "Счёт / Наименование",
+      "amount": "Сумма"
+    }
+  },
+  "messages": {
+    "error": "Ошибка при загрузке данных",
+    "noResults": "Нет данных для отображения",
+    "selectDates": "Выберите даты для отображения отчёта",
+    "waitingForDownload": "Подготовка файла к скачиванию",
+    "loader": {
+      "waitingForDownload": {
+        "text": "Подготовка файла к скачиванию",
+        "additionalText": ""
+      }
+    },
+    "downloadFailed": "Не удалось скачать файл",
+    "downloadSuccess": "Файл успешно скачан"
+  },
+  "balanceIndicator": {
+    "balanced": "Сбалансировано",
+    "unbalanced": "Несбалансировано"
+  },
+  "prompt": {
+    "ok": "Закрыть"
+  },
+  "prompt_form": {
+    "confirm": "Подтвердить",
+    "cancel": "Отмена",
+    "submitting": "Отправка..."
+  },
+  "actions": {
+    "back": "Назад",
+    "refresh": "Обновить"
+  },
+  "dashboard": {
+    "expenses": "Расходы",
+    "liabilities": "Обязательства",
+    "cash": "Денежные средства",
+    "cashAccountLabel": "Счёт: {{code}} - {{name}}",
+    "noCounterAccounts": "Нет данных по контрагентным счетам",
+    "entryCount": "{{count}} записей",
+    "totalEntries": "Всего записей: {{count}}",
+    "noEntries": "Нет записей для отображения",
+    "table": {
+      "date": "Дата",
+      "accounts": "Счета",
+      "amount": "Сумма",
+      "description": "Описание"
+    }
+  },
+  "download": "Скачать",
+  "cashFlow": {
+    "title": "Отчет о Движении Денежных Средств",
+    "openingBalance": "Остаток на начало периода:",
+    "operatingActivities": "Операционная деятельность",
+    "outflows": {
+      "salary": "Выплата заработной платы",
+      "tax": "Уплата налогов (ИПН)",
+      "social": "Соц. платежи (ОПВ, СО, ОCMC, CH)",
+      "vendor": "Оплата поставщикам"
+    },
+    "totalOutflows": "Итого операционные оттоки:",
+    "outflowsFormula": "ЗП({{salary}}) + Налоги({{tax}}) + Соц({{social}}) + Пост({{vendor}}) = ({{total}})",
+    "netChange": "Чистое изменение ДС:",
+    "endingBalance": "Остаток на конец периода:",
+    "endingBalanceFormula": "Начало({{opening}})\nИзменение({{change}})\n({{ending}})",
+    "note": "ДДС показывает фактическое движение денег (кассовый метод). Покупка товаров/НМА отражается как отток при оплате.",
+    "error": "Ошибка загрузки данных",
+    "noData": "Нет данных"
+  },
+  "depreciationReport": {
+    "title": "Амортизация",
+    "subtitle": "Прямолинейный метод (ежемесячно)",
+    "summary": {
+      "title": "Сводка",
+      "assetsCount": "Количество активов",
+      "initialCost": "Первоначальная стоимость",
+      "accumulatedDepreciation": "Накопленная амортизация",
+      "residualValue": "Остаточная стоимость",
+      "monthlyDepreciation": "Месячная амортизация"
+    },
+    "assets": {
+      "title": "Активы",
+      "name": "Название",
+      "type": "Тип",
+      "rate": "Ставка",
+      "initialCost": "Первоначальная стоимость",
+      "residualValue": "Остаточная стоимость",
+      "monthlyDepreciation": "Месячная амортизация",
+      "fullyDepreciated": "Полностью самортизирован"
+    },
+    "error": "Ошибка загрузки данных",
+    "noData": "Нет данных по амортизации за выбранный период"
+  },
+  "downloadTrialBalance": "Скачать ОСВ",
+  "downloadPLReport": "Скачать ОПиУ",
+  "downloadBalanceSheet": "Скачать Баланс",
+  "downloadFilename": {
+    "balanceSheet": "Баланс",
+    "plReport": "ОПиУ"
+  },
+  "journalEntries": {
+    "title": "Журнал проводок",
+    "forPeriod": "за",
+    "table": {
+      "date": "Дата",
+      "debit": "Дебет",
+      "credit": "Кредит",
+      "description": "Описание",
+      "amount": "Сумма",
+      "source": "Источник",
+      "status": "Статус"
+    },
+    "empty": "Нет проводок за выбранный период",
+    "error": "Ошибка загрузки проводок",
+    "status": {
+      "draft": "Черновик",
+      "created": "Создано",
+      "approved": "Утверждено",
+      "paid": "Оплачено"
+    },
+    "sourceType": {
+      "contract_draft": "Черновик договора",
+      "job_application": "Заявление о приеме",
+      "vehicle_rental": "Аренда транспорта",
+      "premises_lease": "Аренда помещений",
+      "service_agreement_individual": "Договор услуг (ФЛ)",
+      "service_agreement_msb": "Договор услуг (ИП)",
+      "goods_supply": "Поставка товаров",
+      "vehicle_handover": "Передача транспорта",
+      "premises_handover": "Передача помещений",
+      "amendment_agreement": "Доп. соглашение",
+      "annual_leave": "Ежегодный отпуск",
+      "unpaid_leave": "Отпуск без сохранения",
+      "resignation_letter": "Заявление об увольнении",
+      "medical_leave": "Больничный",
+      "payroll_entry": "Проводка по ЗП",
+      "gph_payment": "Оплата ГПХ",
+      "inventory_item": "ТМЦ",
+      "depreciation": "Амортизация",
+      "payment": "Платеж",
+      "rental_payment": "Арендная плата",
+      "inventory_unit": "Единица ТМЦ"
+    }
+  }
+}
+

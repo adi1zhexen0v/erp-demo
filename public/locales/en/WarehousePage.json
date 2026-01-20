@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "title": "Warehouse and Assets — Accounting | SEN Group",
+    "description": "Manage warehouse items"
+  },
+  "title": "Warehouse and Assets",
+  "breadcrumbs": {
+    "accounting": "Accounting",
+    "warehouse": "Warehouse"
+  },
+  "summary": {
+    "totalItems": "Total Items",
+    "totalUnits": "Total Units",
+    "inStock": "In Stock",
+    "assigned": "Assigned",
+    "fixedAssets": "Fixed Assets",
+    "totalValue": "Total Value",
+    "totalResidualValue": "Total Residual Value"
+  },
+  "table": {
+    "name": "Name",
+    "type": "Type",
+    "category": "Category",
+    "status": "Status",
+    "vendor": "Vendor",
+    "price": "Price",
+    "cost": "Cost",
+    "barcode": "Barcode",
+    "serialNumber": "Serial Number",
+    "residual": "Residual",
+    "residualValue": "Residual Value",
+    "assignedTo": "Assigned To",
+    "actions": "Actions",
+    "groupName": "Employee / Group",
+    "quantity": "Quantity",
+    "totalAmount": "Total Amount"
+  },
+  "section": {
+    "title": "Inventory",
+    "subtitle": "Current warehouse items",
+    "groupsSubtitle": "Grouped by employees"
+  },
+  "groups": {
+    "unassigned": "Unassigned"
+  },
+  "filters": {
+    "searchPlaceholder": "Search by name or item number",
+    "category": "Category",
+    "status": "Status",
+    "vendor": "Vendor",
+    "reset": "Reset"
+  },
+  "status": {
+    "in_stock": "In Stock",
+    "assigned": "Assigned",
+    "written_off": "Written Off",
+    "disposed": "Disposed"
+  },
+  "assetType": {
+    "inventory": "Goods",
+    "fixed_asset": "Fixed Assets",
+    "intangible": "Intangible Assets"
+  },
+  "assignModal": {
+    "title": "Assign Asset",
+    "item": "Item",
+    "employee": "Employee",
+    "selectEmployee": "Select Employee",
+    "quantity": "Quantity",
+    "notes": "Notes",
+    "notesPlaceholder": "Enter notes (optional)",
+    "cancel": "Cancel",
+    "confirm": "Assign"
+  },
+  "detailsModal": {
+    "title": "Unit Details",
+    "name": "Name",
+    "status": "Status",
+    "type": "Type",
+    "account": "Account",
+    "fixedAssetGroup": "Fixed Asset Group",
+    "description": "Description",
+    "vendor": "Vendor",
+    "vendorName": "Name",
+    "bin": "BIN",
+    "barcode": "Barcode",
+    "serialNumber": "Serial Number",
+    "invoiceNumber": "Invoice",
+    "invoiceDate": "Invoice Date",
+    "receiptDate": "Date of receipt",
+    "unitPrice": "Price per unit",
+    "unitCost": "Unit Cost",
+    "quantity": "Quantity",
+    "totalCost": "Total Cost",
+    "totalWithDelivery": "Total with delivery",
+    "vat": "VAT",
+    "cost": "Cost",
+    "depreciation": "Depreciation",
+    "annualRate": "Annual rate",
+    "monthlyDepreciation": "Monthly Depreciation",
+    "usefulLife": "Term of use",
+    "months": "months",
+    "accumulatedDepreciation": "Accumulated Depreciation",
+    "residualValue": "Residual value",
+    "nextDepreciationDate": "Next Depreciation Date",
+    "monthsRemaining": "Months Remaining",
+    "depreciationAutoNote": "Depreciation is calculated automatically",
+    "assignedTo": "Assigned To",
+    "assignedDate": "Assigned Date",
+    "close": "Close"
+  },
+  "depreciationModal": {
+    "title": "Calculate Depreciation",
+    "item": "Item",
+    "type": "Type",
+    "year": "year",
+    "months": "months",
+    "depreciationRate": "Depreciation Rate",
+    "originalCost": "Original Cost",
+    "yearlyDepreciation": "Yearly Depreciation",
+    "monthlyDepreciation": "Monthly Depreciation",
+    "accumulatedDepreciation": "Accumulated Depreciation",
+    "monthsDepreciated": "Months depreciated",
+    "residualValue": "Residual Value",
+    "monthsLabel": "Number of months to calculate:",
+    "preview": "Depreciation for {{months}} month(s) will be",
+    "cancel": "Cancel",
+    "confirm": "Calculate"
+  },
+  "confirm": {
+    "writeOffTitle": "Write Off Asset?",
+    "writeOffText": "Are you sure you want to write off this asset?",
+    "writeOffConfirm": "Write Off",
+    "cancel": "Cancel"
+  },
+  "messages": {
+    "error": "Error loading data",
+    "noResults": "No results",
+    "assignSuccessTitle": "Success",
+    "assignSuccessText": "Asset assigned successfully",
+    "assignErrorText": "Error assigning asset",
+    "returnSuccessTitle": "Success",
+    "returnSuccessText": "Asset returned successfully",
+    "returnErrorText": "Error returning asset",
+    "depreciateSuccessTitle": "Success",
+    "depreciateSuccessText": "Depreciation calculated successfully",
+    "depreciateErrorText": "Error calculating depreciation",
+    "writeOffSuccessTitle": "Success",
+    "writeOffSuccessText": "Asset written off successfully",
+    "writeOffErrorText": "Error writing off asset",
+    "errorTitle": "Error"
+  },
+  "loading": "Loading...",
+  "actions": {
+    "open": "Open",
+    "assign": "Assign",
+    "return": "Return",
+    "depreciate": "Depreciate",
+    "writeOff": "Write Off",
+    "back": "Back"
+  },
+  "writeOff": {
+    "defaultReason": "Asset write-off"
+  },
+  "tooltip": {
+    "depreciationRate": "Depreciation Rate",
+    "year": "year",
+    "originalCost": "Original Cost",
+    "monthlyDepreciation": "Monthly Depreciation",
+    "accumulated": "Accumulated Depreciation",
+    "nextDepreciation": "Next Depreciation",
+    "monthsDepreciated": "Months Depreciated",
+    "months": "months",
+    "residualValue": "Residual Value"
+  },
+  "prompt": {
+    "ok": "Close"
+  },
+  "qrModal": {
+    "title": "Item QR Code",
+    "hint": "Scan for quick access to the item page",
+    "close": "Close",
+    "download": "Download"
+  },
+  "publicUnit": {
+    "cost": "Cost",
+    "depreciation": "Depreciation",
+    "vendor": "Vendor",
+    "responsiblePerson": "Responsible Person",
+    "unitPrice": "Price per unit",
+    "totalWithDelivery": "Total with delivery",
+    "vat": "VAT",
+    "annualRate": "Annual rate",
+    "usefulLife": "Term of use",
+    "accumulatedDepreciation": "Accumulated Depreciation",
+    "residualValue": "Residual value",
+    "vendorName": "Name",
+    "vendorBin": "BIN",
+    "invoiceNumber": "Invoice",
+    "accountCode": "Account",
+    "receiptDate": "Date of receipt",
+    "quantity": "Quantity",
+    "assignmentDocument": "Assignment document",
+    "notAssigned": "Not assigned",
+    "barcode": "Barcode",
+    "serialNumber": "Serial Number",
+    "createdAt": "Date of creation",
+    "months": "months",
+    "unit": "pcs",
+    "noBarcode": "Barcode not specified",
+    "notFound": "Unit not found",
+    "notFoundDescription": "Unit with the specified barcode was not found in the system.",
+    "errorDescription": "An error occurred while loading data.",
+    "pageTitle": "Asset Information",
+    "pageTitleWithBrand": "— Accounting | SEN Group"
+  },
+  "prompt_form": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "submitting": "Submitting..."
+  }
+}
+

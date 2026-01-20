@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "title": "Financial Reports — Accounting | SEN Group",
+    "description": "Official financial reports: Trial Balance, P&L, Balance Sheet in SEN Group management system."
+  },
+  "breadcrumbs": {
+    "accounting": "Accounting",
+    "reports": "Financial Reports"
+  },
+  "title": "Financial Reports",
+  "titleForPeriod": "Financial Reports for {{period}}",
+  "periodSelector": {
+    "title": "Period Selection",
+    "description": "Select year and month to display financial reports",
+    "allYear": "All year",
+    "yearPlaceholder": "Year",
+    "monthPlaceholder": "Month"
+  },
+  "tabs": {
+    "trialBalance": "Trial Balance",
+    "plReport": "Profit & Loss Statement",
+    "balanceSheet": "Balance Sheet"
+  },
+  "dateFilter": {
+    "rangeLabel": "Period",
+    "rangePlaceholder": "Select period",
+    "balanceSheetLabel": "As of Date",
+    "balanceSheetPlaceholder": "Select date"
+  },
+  "trialBalance": {
+    "title": "Trial Balance",
+    "forPeriod": "for",
+    "period": "Period",
+    "balanced": "Turnovers match (Dr = Cr)",
+    "unbalanced": "Turnovers do not match (Dr ≠ Cr)",
+    "table": {
+      "code": "Code",
+      "name": "Name",
+      "openingDebit": "Opening Balance (Dr)",
+      "openingCredit": "Opening Balance (Cr)",
+      "debitTurnover": "Turnover (Dr)",
+      "creditTurnover": "Turnover (Cr)",
+      "closingDebit": "Closing Balance (Dr)",
+      "closingCredit": "Closing Balance (Cr)",
+      "total": "TOTAL"
+    }
+  },
+  "plReport": {
+    "period": "Period",
+    "revenue": "REVENUE",
+    "expenses": "EXPENSES",
+    "expenseBreakdown": "Expense Breakdown",
+    "netIncome": "Net Income",
+    "netLoss": "Net Loss",
+    "totalRevenue": "Total revenue",
+    "totalExpenses": "Total expenses",
+    "category": "Category",
+    "title": "Profit and Loss Statement (P&L)",
+    "revenueSection": "Revenue",
+    "expensesSection": "Expenses",
+    "noRevenue": "No revenue",
+    "totalRevenueLabel": "Total revenue",
+    "totalExpensesLabel": "Total expenses",
+    "totalExpensesCode": "Total {{code}}:",
+    "profitLoss": "Profit/Loss:",
+    "formula": "Formula:",
+    "payrollFormula": "Payroll ({{payroll}}) + Other ({{other}}) = {{total}}",
+    "resultFormula": "Result = Revenue - Expenses = {{revenue}} - {{expenses}} = {{netIncome}}",
+    "note": "P&L shows expenses on an accrual basis. Goods and intangible assets are capitalized and do not affect P&L.",
+    "error": "Error loading data",
+    "noData": "No data",
+    "breakdownOther": "Other expenses",
+    "table": {
+      "code": "Code",
+      "name": "Name",
+      "amount": "Amount",
+      "totalRevenue": "TOTAL REVENUE",
+      "totalExpenses": "TOTAL EXPENSES"
+    },
+    "breakdown": {
+      "payroll": "Payroll",
+      "opvr": "OPVR 2.5%",
+      "so": "SO 5%",
+      "oosms": "OOSMS 3%",
+      "sn": "SN 11%",
+      "purchase": "Purchases and Services",
+      "depreciation": "Depreciation",
+      "other": "Other"
+    }
+  },
+  "balanceSheet": {
+    "asOfDate": "As of Date",
+    "balanced": "Balanced",
+    "unbalanced": "Unbalanced",
+    "assets": "ASSETS",
+    "liabilitiesEquity": "LIABILITIES + EQUITY",
+    "totalAssets": "TOTAL ASSETS",
+    "totalLiabilitiesEquity": "TOTAL LIABILITIES + EQUITY",
+    "total": "Total",
+    "title": "Balance Sheet",
+    "assetsSection": "Assets",
+    "liabilitiesSection": "Liabilities",
+    "equitySection": "Equity",
+    "totalAssetsLabel": "Total assets",
+    "totalLiabilitiesLabel": "Total liabilities",
+    "totalEquityLabel": "Total equity",
+    "passiveLabel": "Balance",
+    "balanceFormula": "Balance equation:",
+    "balanceEquation": "Assets = Liabilities + Equity",
+    "balanceEquationFormula": "{{assets}} = {{liabilities}} + {{equity}} = {{total}}",
+    "balanceStatusBalanced": "Balance matches",
+    "balanceStatusUnbalanced": "Balance does not match",
+    "balanceStatusFormula": "Balance matches",
+    "error": "Error loading data",
+    "noData": "No data",
+    "keyIndicators": {
+      "title": "KEY INDICATORS",
+      "cash": "Cash",
+      "fixedAssets": "Fixed Assets",
+      "retainedEarnings": "Retained Earnings"
+    },
+    "table": {
+      "account": "Account / Name",
+      "amount": "Amount"
+    }
+  },
+  "messages": {
+    "error": "Error loading data",
+    "noResults": "No data to display",
+    "selectDates": "Select dates to display report",
+    "waitingForDownload": "Preparing file for download",
+    "loader": {
+      "waitingForDownload": {
+        "text": "Preparing file for download",
+        "additionalText": ""
+      }
+    },
+    "downloadFailed": "Failed to download file",
+    "downloadSuccess": "File downloaded successfully"
+  },
+  "balanceIndicator": {
+    "balanced": "Balanced",
+    "unbalanced": "Unbalanced"
+  },
+  "cashFlow": {
+    "title": "Cash Flow Statement",
+    "openingBalance": "Opening balance:",
+    "operatingActivities": "Operating activities",
+    "outflows": {
+      "salary": "Salary payments",
+      "tax": "Tax payments (PIT)",
+      "social": "Social payments (Pension, SO, OCMC, CH)",
+      "vendor": "Payments to suppliers"
+    },
+    "totalOutflows": "Total operating outflows:",
+    "outflowsFormula": "Salary({{salary}}) + Taxes({{tax}}) + Social({{social}}) + Suppliers({{vendor}}) = ({{total}})",
+    "netChange": "Net change in cash:",
+    "endingBalance": "Ending balance:",
+    "endingBalanceFormula": "Beginning({{opening}})\nChange({{change}})\n({{ending}})",
+    "note": "CFS shows actual cash movement (cash method). Purchase of goods/intangible assets is reflected as an outflow upon payment.",
+    "error": "Error loading data",
+    "noData": "No data"
+  },
+  "depreciationReport": {
+    "title": "Depreciation",
+    "subtitle": "Straight-line method (monthly)",
+    "summary": {
+      "title": "Summary",
+      "assetsCount": "Assets count",
+      "initialCost": "Initial cost",
+      "accumulatedDepreciation": "Accumulated depreciation",
+      "residualValue": "Residual value",
+      "monthlyDepreciation": "Monthly depreciation"
+    },
+    "assets": {
+      "title": "Assets",
+      "name": "Name",
+      "type": "Type",
+      "rate": "Rate",
+      "initialCost": "Initial cost",
+      "residualValue": "Residual value",
+      "monthlyDepreciation": "Monthly depreciation",
+      "fullyDepreciated": "Fully depreciated"
+    },
+    "error": "Error loading data",
+    "noData": "No depreciation data for the selected period"
+  },
+  "prompt": {
+    "ok": "Close"
+  },
+  "actions": {
+    "back": "Back",
+    "refresh": "Refresh"
+  },
+  "dashboard": {
+    "expenses": "Expenses",
+    "liabilities": "Liabilities",
+    "cash": "Cash",
+    "cashAccountLabel": "Account: {{code}} - {{name}}",
+    "noCounterAccounts": "No data for counter accounts",
+    "entryCount": "{{count}} entries",
+    "totalEntries": "Total entries: {{count}}",
+    "noEntries": "No entries to display",
+    "table": {
+      "date": "Date",
+      "accounts": "Accounts",
+      "amount": "Amount",
+      "description": "Description"
+    }
+  },
+  "download": "Download",
+  "downloadTrialBalance": "Download Trial Balance",
+  "downloadPLReport": "Download P&L",
+  "downloadBalanceSheet": "Download Balance Sheet",
+  "downloadFilename": {
+    "balanceSheet": "Balance",
+    "plReport": "P&L"
+  },
+  "journalEntries": {
+    "title": "Journal Entries",
+    "forPeriod": "for",
+    "table": {
+      "date": "Date",
+      "debit": "Debit",
+      "credit": "Credit",
+      "description": "Description",
+      "amount": "Amount",
+      "source": "Source",
+      "status": "Status"
+    },
+    "empty": "No entries for the selected period",
+    "error": "Error loading entries",
+    "status": {
+      "draft": "Draft",
+      "created": "Created",
+      "approved": "Approved",
+      "paid": "Paid"
+    },
+    "sourceType": {
+      "contract_draft": "Contract Draft",
+      "job_application": "Job Application",
+      "vehicle_rental": "Vehicle Rental",
+      "premises_lease": "Premises Lease",
+      "service_agreement_individual": "Service Agreement (Individual)",
+      "service_agreement_msb": "Service Agreement (MSB)",
+      "goods_supply": "Goods Supply",
+      "vehicle_handover": "Vehicle Handover",
+      "premises_handover": "Premises Handover",
+      "amendment_agreement": "Amendment Agreement",
+      "annual_leave": "Annual Leave",
+      "unpaid_leave": "Unpaid Leave",
+      "resignation_letter": "Resignation Letter",
+      "medical_leave": "Medical Leave",
+      "payroll_entry": "Payroll Entry",
+      "gph_payment": "GPH Payment",
+      "inventory_item": "Inventory Item",
+      "depreciation": "Depreciation",
+      "payment": "Payment",
+      "rental_payment": "Rental Payment",
+      "inventory_unit": "Inventory Unit"
+    }
+  },
+  "prompt_form": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "submitting": "Submitting..."
+  }
+}
+

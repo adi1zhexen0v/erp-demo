@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "title": "Қаржылық есептер — Бухгалтерия | SEN Group",
+    "description": "Ресми қаржылық есептер: ОСВ, ОПиУ, Баланс SEN Group басқару жүйесінде."
+  },
+  "breadcrumbs": {
+    "accounting": "Бухгалтерия",
+    "reports": "Қаржылық есептер"
+  },
+  "title": "Қаржылық есептер",
+  "titleForPeriod": "Қаржылық есептер {{period}} үшін",
+  "periodSelector": {
+    "title": "Кезеңді таңдау",
+    "description": "Қаржылық есептерді көрсету үшін жыл мен айды таңдаңыз",
+    "allYear": "Бүкіл жыл",
+    "yearPlaceholder": "Жыл",
+    "monthPlaceholder": "Ай"
+  },
+  "tabs": {
+    "trialBalance": "Айналымдық-қалдықтық ведомость",
+    "plReport": "Табыс пен шығындар туралы есеп",
+    "balanceSheet": "Бухгалтерлік баланс"
+  },
+  "dateFilter": {
+    "rangeLabel": "Кезең",
+    "rangePlaceholder": "Кезеңді таңдаңыз",
+    "balanceSheetLabel": "Күні бойынша",
+    "balanceSheetPlaceholder": "Күнді таңдаңыз"
+  },
+  "trialBalance": {
+    "title": "Айналым-қалдық ведомость",
+    "forPeriod": "үшін",
+    "period": "Кезең",
+    "balanced": "Айналымдар сәйкес келеді (Дт = Кт)",
+    "unbalanced": "Айналымдар сәйкес келмейді (Дт ≠ Кт)",
+    "table": {
+      "code": "Есеп",
+      "name": "Атауы",
+      "openingDebit": "Бастапқы қалдық (Дт)",
+      "openingCredit": "Бастапқы қалдық (Кт)",
+      "debitTurnover": "Айналым (Дт)",
+      "creditTurnover": "Айналым (Кт)",
+      "closingDebit": "Соңғы қалдық (Дт)",
+      "closingCredit": "Соңғы қалдық (Кт)",
+      "total": "БАРЛЫҒЫ"
+    }
+  },
+  "plReport": {
+    "period": "Кезең",
+    "revenue": "КІРІС",
+    "expenses": "ШЫҒЫС",
+    "expenseBreakdown": "Шығыстардың бөлшектемесі",
+    "netIncome": "Таза табыс",
+    "netLoss": "Таза шығын",
+    "totalRevenue": "Жалпы кіріс",
+    "totalExpenses": "Жалпы шығыс",
+    "category": "Категория",
+    "title": "Табыс пен шығындар туралы есеп (ОПиУ)",
+    "revenueSection": "Кіріс",
+    "expensesSection": "Шығыс",
+    "noRevenue": "Кіріс жоқ",
+    "totalRevenueLabel": "Барлығы кіріс",
+    "totalExpensesLabel": "Барлығы шығыс",
+    "totalExpensesCode": "Барлығы {{code}}:",
+    "profitLoss": "Табыс/Шығын:",
+    "formula": "Формула:",
+    "payrollFormula": "Еңбекақы ({{payroll}}) + Басқа ({{other}}) = {{total}}",
+    "resultFormula": "Нәтиже = Кіріс - Шығыс = {{revenue}} - {{expenses}} = {{netIncome}}",
+    "note": "ОПиУ есептеу әдісі бойынша шығыстарды көрсетеді. Тауарлар мен ұНМА капиталдандырылады және табыс пен шығындар есебіне әсер етпейді.",
+    "error": "Деректерді жүктеу кезінде қате",
+    "noData": "Деректер жоқ",
+    "breakdownOther": "Басқа шығыстар",
+    "table": {
+      "code": "Есеп",
+      "name": "Атауы",
+      "amount": "Сома",
+      "totalRevenue": "БАРЛЫҒЫ КІРІС",
+      "totalExpenses": "БАРЛЫҒЫ ШЫҒЫС"
+    },
+    "breakdown": {
+      "payroll": "Еңбекақы",
+      "opvr": "ОПВР 2.5%",
+      "so": "СО 5%",
+      "oosms": "ОСМС 3%",
+      "sn": "СН 11%",
+      "purchase": "Сатып алулар мен қызметтер",
+      "depreciation": "Амортизация",
+      "other": "Басқа"
+    }
+  },
+  "balanceSheet": {
+    "asOfDate": "Күні бойынша",
+    "balanced": "Теңгерілген",
+    "unbalanced": "Теңгерілмеген",
+    "assets": "АКТИВТЕР",
+    "liabilitiesEquity": "ПАССИВТЕР",
+    "totalAssets": "БАРЛЫҒЫ АКТИВТЕР",
+    "totalLiabilitiesEquity": "БАРЛЫҒЫ ПАССИВТЕР",
+    "total": "Барлығы",
+    "title": "Бухгалтерлік баланс",
+    "assetsSection": "Активтер",
+    "liabilitiesSection": "Міндеттемелер",
+    "equitySection": "Капитал",
+    "totalAssetsLabel": "Барлығы активтер",
+    "totalLiabilitiesLabel": "Барлығы міндеттемелер",
+    "totalEquityLabel": "Барлығы капитал",
+    "passiveLabel": "Баланс",
+    "balanceFormula": "Баланс теңдеуі:",
+    "balanceEquation": "Активтер = Міндеттемелер + Капитал",
+    "balanceEquationFormula": "{{assets}} = {{liabilities}} + {{equity}} = {{total}}",
+    "balanceStatusBalanced": "Баланс сәйкес келеді",
+    "balanceStatusUnbalanced": "Баланс сәйкес келмейді",
+    "balanceStatusFormula": "Баланс сәйкес келеді",
+    "error": "Деректерді жүктеу кезінде қате",
+    "noData": "Деректер жоқ",
+    "keyIndicators": {
+      "title": "НЕГІЗГІ КӨРСЕТКІШТЕР",
+      "cash": "Ақшалай қаражат",
+      "fixedAssets": "Негізгі құралдар",
+      "retainedEarnings": "Бөлінбеген табыс"
+    },
+    "table": {
+      "account": "Есеп / Атауы",
+      "amount": "Сома"
+    }
+  },
+  "messages": {
+    "error": "Деректерді жүктеу кезінде қате",
+    "noResults": "Көрсету үшін деректер жоқ",
+    "selectDates": "Есепті көрсету үшін күндерді таңдаңыз",
+    "waitingForDownload": "Жүктеуге файл дайындалуда",
+    "loader": {
+      "waitingForDownload": {
+        "text": "Жүктеуге файл дайындалуда",
+        "additionalText": ""
+      }
+    },
+    "downloadFailed": "Файлды жүктеу мүмкін болмады",
+    "downloadSuccess": "Файл сәтті жүктелді"
+  },
+  "balanceIndicator": {
+    "balanced": "Теңгерілген",
+    "unbalanced": "Теңгерілмеген"
+  },
+  "cashFlow": {
+    "title": "Ақша қозғалысы туралы есеп",
+    "openingBalance": "Кезең басындағы қалдық:",
+    "operatingActivities": "Операционная деятельность",
+    "outflows": {
+      "salary": "Еңбекақы төлемдері",
+      "tax": "Салық төлемдері (ЖК)",
+      "social": "Әлеуметтік төлемдер (ЗЖ, ӘС, ӘОСМС, ДС)",
+      "vendor": "Жеткізушілерге төлемдер"
+    },
+    "totalOutflows": "Барлығы операциялық ағымдар:",
+    "outflowsFormula": "Еңбекақы({{salary}}) + Салықтар({{tax}}) + Әлеуметтік({{social}}) + Жеткізушілер({{vendor}}) = ({{total}})",
+    "netChange": "Ақшаның таза өзгерісі:",
+    "endingBalance": "Кезең соңындағы қалдық:",
+    "endingBalanceFormula": "Басы({{opening}})\nӨзгеріс({{change}})\n({{ending}})",
+    "note": "АҚЕ ақшаның нақты қозғалысын көрсетеді (кассалық әдіс). Тауарлар/ҰНМА сатып алу төлем кезінде ағым ретінде көрсетіледі.",
+    "error": "Деректерді жүктеу кезінде қате",
+    "noData": "Деректер жоқ"
+  },
+  "depreciationReport": {
+    "title": "Амортизация",
+    "subtitle": "Түзу сызықты әдіс (ай сайын)",
+    "summary": {
+      "title": "Қорытынды",
+      "assetsCount": "Активтер саны",
+      "initialCost": "Бастапқы құны",
+      "accumulatedDepreciation": "Жинақталған амортизация",
+      "residualValue": "Қалдық құн",
+      "monthlyDepreciation": "Айлық амортизация"
+    },
+    "assets": {
+      "title": "Активтер",
+      "name": "Атауы",
+      "type": "Түрі",
+      "rate": "Мөлшерлеме",
+      "initialCost": "Бастапқы құн",
+      "residualValue": "Қалдық құн",
+      "monthlyDepreciation": "Айлық амортизация",
+      "fullyDepreciated": "Толығымен амортизацияланған"
+    },
+    "error": "Деректерді жүктеу кезінде қате",
+    "noData": "Таңдалған кезеңде амортизация бойынша деректер жоқ"
+  },
+  "prompt": {
+    "ok": "Жабу"
+  },
+  "actions": {
+    "back": "Артқа",
+    "refresh": "Жаңарту"
+  },
+  "dashboard": {
+    "expenses": "Шығыстар",
+    "liabilities": "Міндеттемелер",
+    "cash": "Ақшалай қаражат",
+    "cashAccountLabel": "Есеп: {{code}} - {{name}}",
+    "noCounterAccounts": "Контрагенттік есептер бойынша деректер жоқ",
+    "entryCount": "{{count}} жазбалар",
+    "totalEntries": "Барлығы жазбалар: {{count}}",
+    "noEntries": "Көрсету үшін жазбалар жоқ",
+    "table": {
+      "date": "Күні",
+      "accounts": "Есептер",
+      "amount": "Сома",
+      "description": "Сипаттама"
+    }
+  },
+  "download": "Жүктеу",
+  "downloadTrialBalance": "ОСВ жүктеу",
+  "downloadPLReport": "ОПиУ жүктеу",
+  "downloadBalanceSheet": "Баланс жүктеу",
+  "downloadFilename": {
+    "balanceSheet": "Баланс",
+    "plReport": "ОПиУ"
+  },
+  "journalEntries": {
+    "title": "Журнал жазбалары",
+    "forPeriod": "үшін",
+    "table": {
+      "date": "Күні",
+      "debit": "Дебет",
+      "credit": "Кредит",
+      "description": "Сипаттама",
+      "amount": "Сома",
+      "source": "Көзі",
+      "status": "Мәртебе"
+    },
+    "empty": "Таңдалған кезеңде жазбалар жоқ",
+    "error": "Жазбаларды жүктеу кезінде қате",
+    "status": {
+      "draft": "Жоба",
+      "created": "Жасалған",
+      "approved": "Бекітілген",
+      "paid": "Төленген"
+    },
+    "sourceType": {
+      "contract_draft": "Келісім жобасы",
+      "job_application": "Жұмысқа қабылдау өтініші",
+      "vehicle_rental": "Көлік жалдау",
+      "premises_lease": "Үй-жай жалдау",
+      "service_agreement_individual": "Қызмет келісімі (ЖТ)",
+      "service_agreement_msb": "Қызмет келісімі (ЖК)",
+      "goods_supply": "Тауар жеткізу",
+      "vehicle_handover": "Көлік тапсыру",
+      "premises_handover": "Үй-жай тапсыру",
+      "amendment_agreement": "Қосымша келісім",
+      "annual_leave": "Жыл сайынғы демалыс",
+      "unpaid_leave": "Ақысыз демалыс",
+      "resignation_letter": "Жұмыстан кету өтініші",
+      "medical_leave": "Ауру демалысы",
+      "payroll_entry": "Еңбекақы бойынша жазба",
+      "gph_payment": "АҚШ төлемі",
+      "inventory_item": "ТМҚ",
+      "depreciation": "Амортизация",
+      "payment": "Төлем",
+      "rental_payment": "Жалдау төлемі",
+      "inventory_unit": "ТМҚ бірлігі"
+    }
+  },
+  "prompt_form": {
+    "confirm": "Растау",
+    "cancel": "Бас тарту",
+    "submitting": "Жіберілуде..."
+  }
+}
+

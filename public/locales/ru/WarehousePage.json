@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "title": "Склад и активы — Бухгалтерия | SEN Group",
+    "description": "Управление складскими позициями"
+  },
+  "title": "Склад и активы",
+  "breadcrumbs": {
+    "accounting": "Бухгалтерия",
+    "warehouse": "Склад и активы"
+  },
+  "summary": {
+    "totalItems": "Всего позиций",
+    "totalUnits": "Всего единиц",
+    "inStock": "На складе",
+    "assigned": "Выдано",
+    "fixedAssets": "Основные средства",
+    "totalValue": "Общая стоимость",
+    "totalResidualValue": "Остаточная стоимость"
+  },
+  "table": {
+    "name": "Наименование",
+    "type": "Тип",
+    "category": "Категория",
+    "status": "Статус",
+    "vendor": "Поставщик",
+    "price": "Стоимость",
+    "cost": "Стоимость",
+    "barcode": "Штрихкод",
+    "serialNumber": "Серийный номер",
+    "residual": "Остаточная",
+    "residualValue": "Остаточная стоимость",
+    "assignedTo": "Назначено",
+    "actions": "Действия",
+    "groupName": "Сотрудник / Группа",
+    "quantity": "Количество единиц",
+    "totalAmount": "Общая сумма"
+  },
+  "section": {
+    "title": "Инвентарь",
+    "subtitle": "Текущие позиции на складе",
+    "groupsSubtitle": "Группировка по сотрудникам"
+  },
+  "groups": {
+    "unassigned": "Незакрепленные"
+  },
+  "filters": {
+    "searchPlaceholder": "Поиск по названию или номеру товара",
+    "category": "Категория",
+    "status": "Статус",
+    "vendor": "Поставщик",
+    "reset": "Сбросить"
+  },
+  "status": {
+    "in_stock": "На складе",
+    "assigned": "Выдан сотруднику",
+    "written_off": "Списан",
+    "disposed": "Выбыл"
+  },
+  "assetType": {
+    "inventory": "Товары",
+    "fixed_asset": "Основные средства",
+    "intangible": "Нематериальные активы"
+  },
+  "assignModal": {
+    "title": "Назначить актив",
+    "item": "Товар",
+    "employee": "Сотрудник",
+    "selectEmployee": "Выберите сотрудника",
+    "quantity": "Количество",
+    "notes": "Примечания",
+    "notesPlaceholder": "Введите примечания (необязательно)",
+    "cancel": "Отмена",
+    "confirm": "Назначить"
+  },
+  "detailsModal": {
+    "title": "Информация о единице",
+    "name": "Наименование",
+    "status": "Статус",
+    "type": "Тип",
+    "account": "Счет учета",
+    "fixedAssetGroup": "Группа ОС",
+    "description": "Описание",
+    "vendor": "Поставщик",
+    "vendorName": "Наименование",
+    "bin": "БИН",
+    "barcode": "Штрихкод",
+    "serialNumber": "Серийный номер",
+    "invoiceNumber": "Счет-фактура",
+    "invoiceDate": "Дата накладной",
+    "receiptDate": "Дата поступления",
+    "unitPrice": "Цена за единицу",
+    "unitCost": "Стоимость единицы",
+    "quantity": "Количество",
+    "totalCost": "Общая стоимость",
+    "totalWithDelivery": "Итого с доставкой",
+    "vat": "НДС",
+    "cost": "Стоимость",
+    "depreciation": "Амортизация",
+    "annualRate": "Годовая норма",
+    "monthlyDepreciation": "Месячная амортизация",
+    "usefulLife": "Срок использования",
+    "months": "мес.",
+    "accumulatedDepreciation": "Накопленная амортизация",
+    "residualValue": "Остаточная стоимость",
+    "nextDepreciationDate": "Следующее списание",
+    "monthsRemaining": "Осталось месяцев",
+    "depreciationAutoNote": "Амортизация рассчитывается автоматически",
+    "assignedTo": "Назначен сотруднику",
+    "assignedDate": "Дата назначения",
+    "close": "Закрыть"
+  },
+  "depreciationModal": {
+    "title": "Начисление амортизации",
+    "item": "Товар",
+    "type": "Тип",
+    "year": "год",
+    "months": "мес.",
+    "depreciationRate": "Норма амортизации",
+    "originalCost": "Первоначальная стоимость",
+    "yearlyDepreciation": "Годовая амортизация",
+    "monthlyDepreciation": "Месячная амортизация",
+    "accumulatedDepreciation": "Накопленная амортизация",
+    "monthsDepreciated": "Месяцев амортизировано",
+    "residualValue": "Остаточная стоимость",
+    "monthsLabel": "Количество месяцев для начисления:",
+    "preview": "Будет начислена амортизация за {{months}} мес.",
+    "cancel": "Отмена",
+    "confirm": "Начислить"
+  },
+  "confirm": {
+    "writeOffTitle": "Списать актив?",
+    "writeOffText": "Вы уверены, что хотите списать этот актив?",
+    "writeOffConfirm": "Списать",
+    "cancel": "Отмена"
+  },
+  "messages": {
+    "error": "Ошибка загрузки данных",
+    "noResults": "Нет результатов",
+    "assignSuccessTitle": "Успешно",
+    "assignSuccessText": "Актив успешно назначен",
+    "assignErrorText": "Ошибка назначения актива",
+    "returnSuccessTitle": "Успешно",
+    "returnSuccessText": "Актив успешно возвращен",
+    "returnErrorText": "Ошибка возврата актива",
+    "depreciateSuccessTitle": "Успешно",
+    "depreciateSuccessText": "Амортизация успешно начислена",
+    "depreciateErrorText": "Ошибка начисления амортизации",
+    "writeOffSuccessTitle": "Успешно",
+    "writeOffSuccessText": "Актив успешно списан",
+    "writeOffErrorText": "Ошибка списания актива",
+    "errorTitle": "Ошибка"
+  },
+  "loading": "Загрузка...",
+  "actions": {
+    "open": "Открыть",
+    "assign": "Назначить",
+    "return": "Вернуть",
+    "depreciate": "Амортизировать",
+    "writeOff": "Списать",
+    "back": "Назад"
+  },
+  "writeOff": {
+    "defaultReason": "Списание актива"
+  },
+  "tooltip": {
+    "depreciationRate": "Норма амортизации",
+    "year": "год",
+    "originalCost": "Первоначальная стоимость",
+    "monthlyDepreciation": "Месячная амортизация",
+    "accumulated": "Накопленная амортизация",
+    "nextDepreciation": "Следующее списание",
+    "monthsDepreciated": "Месяцев амортизировано",
+    "months": "мес.",
+    "residualValue": "Остаточная стоимость"
+  },
+  "prompt": {
+    "ok": "Закрыть"
+  },
+  "prompt_form": {
+    "confirm": "Подтвердить",
+    "cancel": "Отмена",
+    "submitting": "Отправка..."
+  },
+  "qrModal": {
+    "title": "QR-код товара",
+    "hint": "Отсканируйте для быстрого доступа к странице товара",
+    "close": "Закрыть",
+    "download": "Скачать"
+  },
+  "publicUnit": {
+    "cost": "Стоимость",
+    "depreciation": "Амортизация",
+    "vendor": "Поставщик",
+    "responsiblePerson": "Материально ответственное лицо",
+    "unitPrice": "Цена за единицу",
+    "totalWithDelivery": "Итого с доставкой",
+    "vat": "НДС",
+    "annualRate": "Годовая норма",
+    "usefulLife": "Срок использования",
+    "accumulatedDepreciation": "Накопленная амортизация",
+    "residualValue": "Остаточная стоимость",
+    "vendorName": "Наименование",
+    "vendorBin": "БИН",
+    "invoiceNumber": "Счет-фактура",
+    "accountCode": "Счет учета",
+    "receiptDate": "Дата поступления",
+    "quantity": "Количество",
+    "assignmentDocument": "Акт приема-передачи",
+    "notAssigned": "Не назначено",
+    "barcode": "Штрих-код",
+    "serialNumber": "Серийный номер",
+    "createdAt": "Дата создания",
+    "months": "мес.",
+    "unit": "шт",
+    "noBarcode": "Штрих-код не указан",
+    "notFound": "Единица не найдена",
+    "notFoundDescription": "Единица с указанным штрих-кодом не найдена в системе.",
+    "errorDescription": "Произошла ошибка при загрузке данных.",
+    "pageTitle": "Информация об активе",
+    "pageTitleWithBrand": "— Бухгалтерия | SEN Group"
+  }
+}
+

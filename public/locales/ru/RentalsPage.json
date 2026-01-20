@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Аренда — Бухгалтерия | SEN Group",
+    "description": "Управление арендой транспорта и помещений"
+  },
+  "title": "Аренда",
+  "breadcrumbs": {
+    "accounting": "Бухгалтерия",
+    "rentals": "Аренда"
+  },
+  "tabs": {
+    "contracts": "Контракты",
+    "payments": "Платежи"
+  },
+  "header": {
+    "createPayment": "Создать платеж"
+  },
+  "filters": {
+    "searchPlaceholder": "Поиск по поставщику, номеру АВР...",
+    "period": "Период АВР",
+    "typePlaceholder": "Тип аренды",
+    "statusPlaceholder": "Статус",
+    "reset": "Сбросить",
+    "type": {
+      "vehicle": "Аренда автомобиля",
+      "premises": "Аренда помещения"
+    },
+    "status": {
+      "draft": "Черновик",
+      "approved": "Утверждено",
+      "paid": "Оплачено"
+    }
+  },
+  "section": {
+    "title": "Платежи",
+    "subtitle": "Список платежей по аренде"
+  },
+  "table": {
+    "paymentNumber": "№ платежа",
+    "type": "Тип",
+    "contract": "Контракт",
+    "period": "Период",
+    "amount": "Сумма",
+    "status": "Статус",
+    "avrDate": "Дата АВР",
+    "actions": "Действия",
+    "actionItems": {
+      "view": "Просмотр",
+      "edit": "Редактировать",
+      "approve": "Утвердить",
+      "approving": "Утверждение...",
+      "markPaid": "Отметить оплаченным",
+      "markingPaid": "Отметка...",
+      "delete": "Удалить",
+      "deleting": "Удаление..."
+    }
+  },
+  "status": {
+    "draft": "Черновик",
+    "approved": "Утверждено",
+    "paid": "Оплачено"
+  },
+  "modals": {
+    "create": {
+      "title": "Создать платеж",
+      "uploadDocument": "Загрузить документ АВР",
+      "type": {
+        "label": "Тип аренды",
+        "vehicle": "Аренда автомобиля",
+        "premises": "Аренда помещения"
+      },
+      "vehicleContract": "Договор аренды автомобиля",
+      "premisesContract": "Договор аренды помещения",
+      "selectContract": "Выберите договор",
+      "vendorName": "Название поставщика",
+      "vendorNamePlaceholder": "Введите название поставщика",
+      "vendorBin": "БИН поставщика (опционально)",
+      "vendorBinPlaceholder": "Введите БИН",
+      "month": "Месяц",
+      "selectMonth": "Выберите месяц",
+      "year": "Год",
+      "selectYear": "Выберите год",
+      "period": "Период",
+      "periodStart": "Начало периода",
+      "periodEnd": "Конец периода",
+      "periodDescription": "Описание периода",
+      "periodDescriptionPlaceholder": "Например: Январь 2026",
+      "description": "Описание услуги",
+      "descriptionPlaceholder": "Описание услуги аренды",
+      "amountTotal": "Сумма с НДС",
+      "vatRate": "Ставка НДС",
+      "avrNumber": "Номер АВР",
+      "avrNumberPlaceholder": "AVR-001",
+      "avrDate": "Дата АВР",
+      "avrDateError": "Дата АВР не может быть раньше начала периода",
+      "ocrSuccess": "Данные успешно извлечены из документа",
+      "vendorCreationFailed": "Не удалось создать поставщика. Платеж будет продолжен без ID поставщика.",
+      "noContractsAvailable": "Нет доступных подписанных контрактов",
+      "selectContractFirst": "Для начала выберите договор",
+      "uploadOrManual": "Вы можете загрузить скан документа или ввести данные вручную",
+      "contract": "Договор",
+      "create": "Создать",
+      "creating": "Создание...",
+      "cancel": "Отмена"
+    },
+    "edit": {
+      "title": "Редактировать платеж",
+      "periodStart": "Начало периода",
+      "periodEnd": "Конец периода",
+      "periodDescription": "Описание периода",
+      "periodDescriptionPlaceholder": "Например: Январь 2026",
+      "amountTotal": "Сумма с НДС",
+      "vatRate": "Ставка НДС",
+      "avrNumber": "Номер АВР",
+      "avrNumberPlaceholder": "AVR-001",
+      "avrDate": "Дата АВР",
+      "update": "Сохранить",
+      "updating": "Сохранение...",
+      "cancel": "Отмена"
+    },
+    "details": {
+      "title": "Детали платежа",
+      "loading": "Загрузка...",
+      "paymentNumber": "Номер платежа",
+      "type": "Тип аренды",
+      "period": "Период",
+      "status": "Статус",
+      "amountNet": "Сумма без НДС",
+      "vatAmount": "Сумма НДС",
+      "amountTotal": "Сумма с НДС",
+      "vatRate": "Ставка НДС",
+      "avrNumber": "Номер АВР",
+      "avrDate": "Дата АВР",
+      "vendor": "Поставщик",
+      "vendorBin": "БИН поставщика",
+      "approvedAt": "Утверждено",
+      "paidAt": "Оплачено"
+    }
+  },
+  "messages": {
+    "noResults": "Нет результатов",
+    "error": "Произошла ошибка",
+    "errorTitle": "Ошибка",
+    "createSuccessTitle": "Платеж создан",
+    "createSuccessText": "Платеж успешно создан",
+    "createErrorText": "Не удалось создать платеж",
+    "updateSuccessTitle": "Платеж обновлен",
+    "updateSuccessText": "Платеж успешно обновлен",
+    "updateErrorText": "Не удалось обновить платеж",
+    "approveSuccessTitle": "Платеж утвержден",
+    "approveSuccessText": "Платеж успешно утвержден",
+    "approveErrorText": "Не удалось утвердить платеж",
+    "markPaidSuccessTitle": "Платеж отмечен как оплаченный",
+    "markPaidSuccessText": "Платеж успешно отмечен как оплаченный",
+    "markPaidErrorText": "Не удалось отметить платеж как оплаченный",
+    "deleteSuccessTitle": "Платеж удален",
+    "deleteSuccessText": "Платеж успешно удален",
+    "deleteErrorText": "Не удалось удалить платеж",
+    "budgetLimitExceededTitle": "Превышен лимит бюджета",
+    "budgetLimitExceededText": "Лимит бюджета для раздела «{{section}}» превышен. Лимит: {{limit}}, потрачено: {{spent}}, запрошено: {{requested}}, доступно: {{available}}",
+    "ocrErrorText": "Не удалось извлечь данные из документа",
+    "loader": {
+      "extractingOCR": {
+        "text": "Извлечение данных из документа",
+        "additionalText": "Пожалуйста, подождите"
+      }
+    }
+  },
+  "contracts": {
+    "vehicleFormat": "Договор №{{id}} - {{details}}",
+    "premisesFormat": "Договор №{{id}} - {{details}}"
+  },
+  "confirm": {
+    "approveTitle": "Утвердить платеж?",
+    "approveText": "Вы уверены, что хотите утвердить этот платеж?",
+    "approveConfirm": "Утвердить",
+    "markPaidTitle": "Отметить как оплаченный?",
+    "markPaidText": "Вы уверены, что хотите отметить этот платеж как оплаченный?",
+    "markPaidConfirm": "Отметить",
+    "deleteTitle": "Удалить платеж?",
+    "deleteText": "Вы уверены, что хотите удалить этот платеж?",
+    "deleteConfirm": "Удалить",
+    "cancel": "Отмена"
+  },
+  "prompt": {
+    "ok": "Закрыть"
+  },
+  "prompt_form": {
+    "confirm": "Подтвердить",
+    "cancel": "Отмена",
+    "submitting": "Отправка..."
+  }
+}

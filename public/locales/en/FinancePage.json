@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Finance | SEN Group",
+    "titleSection": "{{section}} — Finance | SEN Group",
+    "description": "Budget and finance management in SEN Group system"
+  },
+  "breadcrumbs": {
+    "finance": "Finance"
+  },
+  "page": {
+    "title": "Finance",
+    "errorLoading": "Error loading data",
+    "noData": "No data",
+    "emptyState": "No data to display",
+    "retry": "Retry"
+  },
+  "sections": {
+    "admin": "Administrative expenses",
+    "mto": "Material and technical support",
+    "direct": "Direct expenses (GPH)",
+    "adminShort": "Administrative",
+    "mtoShort": "Material and technical",
+    "directShort": "Direct expenses",
+    "short": {
+      "admin": "Administrative",
+      "mto": "Material and technical",
+      "direct": "Direct expenses"
+    }
+  },
+  "kpi": {
+    "title": "Overall budget execution progress",
+    "plannedBudget": "Planned budget",
+    "actualExpenses": "Actual expenses",
+    "remaining": "Remaining"
+  },
+  "chart": {
+    "title": "Where and how much money is allocated",
+    "emptyState": "No data to display",
+    "planned": "Planned:",
+    "spent": "Spent:",
+    "remaining": "Remaining:",
+    "execution": "Execution:"
+  },
+  "footer": {
+    "total": "Total by estimate",
+    "totalDescription": "Sum of all sections",
+    "ofPlanned": "of {{amount}} planned budget"
+  },
+  "section": {
+    "planned": "Planned",
+    "spent": "Spent",
+    "remaining": "Remaining",
+    "execution": "Execution",
+    "noExpenses": "No expenses in this period",
+    "itemsTableTitle": "Operations Description:"
+  },
+  "table": {
+    "name": "Name",
+    "date": "Date",
+    "account": "Entry",
+    "amount": "Amount"
+  },
+  "errors": {
+    "budgetExceeded": "Budget of section \"{{section}}\" exceeded",
+    "limit": "Limit:",
+    "spent": "Spent:",
+    "available": "Available:",
+    "requested": "Requested:",
+    "close": "Close"
+  }
+}

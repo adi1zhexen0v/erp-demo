@@ -1,0 +1,68 @@
+{
+  "loading": "Loading...",
+  "loadingCities": "Loading cities list...",
+  "statusIndicator": {
+    "amendment": {
+      "cancelled": "Cancelled",
+      "applied": "Applied",
+      "default": "Pending"
+    },
+    "jobApplication": {
+      "contractSigned": "Contract signed",
+      "decision": "Rejected",
+      "jobAppPending": "Under revision",
+      "jobAppReview": "Waiting for decision on application",
+      "default": "Approved"
+    },
+    "order": {
+      "orderPending": "Pending",
+      "default": "Completed"
+    }
+  },
+  "prompt_form": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "submitting": "Submitting..."
+  },
+  "workingDays": {
+    "validation": {
+      "minDays": "At least 1 day must be selected",
+      "maxDays": "Maximum 6 days can be selected"
+    }
+  },
+  "trustMeStatus": {
+    "draft": "Draft",
+    "notSigned": "Not signed",
+    "signedByCompany": "Signed by the company",
+    "signedByClient": "Signed by the client",
+    "fullySigned": "Fully signed",
+    "revokedByCompany": "Revoked by company",
+    "companyInitiatedTermination": "Company initiated termination",
+    "clientInitiatedTermination": "Client initiated termination",
+    "clientRefusedTermination": "Client refused termination",
+    "terminated": "Terminated",
+    "clientRefusedToSign": "Client refused to sign"
+  },
+  "organizationTypes": {
+    "llp": {
+      "fullTitle": "Limited Liability Partnership",
+      "abbreviation": "LLP"
+    },
+    "llc": {
+      "fullTitle": "Limited Liability Company",
+      "abbreviation": "LLC"
+    },
+    "jsc": {
+      "fullTitle": "Joint Stock Company",
+      "abbreviation": "JSC"
+    },
+    "ip": {
+      "fullTitle": "Individual Entrepreneur",
+      "abbreviation": "IE"
+    },
+    "pf": {
+      "fullTitle": "Public Foundation",
+      "abbreviation": "PF"
+    }
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "meta": {
+    "title": "Қойма және активтер — Бухгалтерия | SEN Group",
+    "description": "Қойма позицияларын басқару"
+  },
+  "title": "Қойма және активтер",
+  "breadcrumbs": {
+    "accounting": "Бухгалтерия",
+    "warehouse": "Қойма және активтер"
+  },
+  "summary": {
+    "totalItems": "Барлық позициялар",
+    "totalUnits": "Барлық бірліктер",
+    "inStock": "Қоймада",
+    "assigned": "Берілген",
+    "fixedAssets": "Негізгі құралдар",
+    "totalValue": "Жалпы құн",
+    "totalResidualValue": "Қалдық құн"
+  },
+  "table": {
+    "name": "Атауы",
+    "type": "Түрі",
+    "category": "Категория",
+    "status": "Статусы",
+    "vendor": "Жеткізуші",
+    "price": "Құны",
+    "cost": "Құны",
+    "barcode": "Штрихкод",
+    "serialNumber": "Сериялық нөмір",
+    "residual": "Қалдық",
+    "residualValue": "Қалдық құны",
+    "assignedTo": "Тағайындалған",
+    "actions": "Әрекеттер",
+    "groupName": "Қызметкер / Топ",
+    "quantity": "Бірліктер саны",
+    "totalAmount": "Жалпы сома"
+  },
+  "section": {
+    "title": "Инвентарь",
+    "subtitle": "Қоймадағы ағымдағы позициялар",
+    "groupsSubtitle": "Қызметкерлер бойынша топтастыру"
+  },
+  "groups": {
+    "unassigned": "Тағайындалмаған"
+  },
+  "filters": {
+    "searchPlaceholder": "Атауы немесе тауар нөмірі бойынша іздеу",
+    "category": "Категория",
+    "status": "Статусы",
+    "vendor": "Жеткізуші",
+    "reset": "Тазалау"
+  },
+  "status": {
+    "in_stock": "Қоймада",
+    "assigned": "Қызметкерге берілген",
+    "written_off": "Есептен шығарылған",
+    "disposed": "Шыққан"
+  },
+  "assetType": {
+    "inventory": "Тауарлар",
+    "fixed_asset": "Негізгі құралдар",
+    "intangible": "Мәдени емес активтер"
+  },
+  "assignModal": {
+    "title": "Активті тағайындау",
+    "item": "Тауар",
+    "employee": "Қызметкер",
+    "selectEmployee": "Қызметкерді таңдаңыз",
+    "quantity": "Саны",
+    "notes": "Ескертпелер",
+    "notesPlaceholder": "Ескертпелерді енгізіңіз (міндетті емес)",
+    "cancel": "Болдырмау",
+    "confirm": "Тағайындау"
+  },
+  "detailsModal": {
+    "title": "Бірлік туралы ақпарат",
+    "name": "Атауы",
+    "status": "Статусы",
+    "type": "Түрі",
+    "account": "Есеп коды",
+    "fixedAssetGroup": "НҚ тобы",
+    "description": "Сипаттама",
+    "vendor": "Жеткізуші",
+    "vendorName": "Атауы",
+    "bin": "БСН",
+    "barcode": "Штрихкод",
+    "serialNumber": "Сериялық нөмір",
+    "invoiceNumber": "Счет-фактура",
+    "invoiceDate": "Жүкқұжат күні",
+    "receiptDate": "Түсу күні",
+    "unitPrice": "Бірлік бағасы",
+    "unitCost": "Бірлік құны",
+    "quantity": "Саны",
+    "totalCost": "Жалпы құны",
+    "totalWithDelivery": "Жеткізумен бірге",
+    "vat": "ҚҚС",
+    "cost": "Құны",
+    "depreciation": "Амортизация",
+    "annualRate": "Жылдық норма",
+    "monthlyDepreciation": "Айлық амортизация",
+    "usefulLife": "Пайдалану мерзімі",
+    "months": "ай",
+    "accumulatedDepreciation": "Жинақталған амортизация",
+    "residualValue": "Қалдық құны",
+    "nextDepreciationDate": "Келесі есептеу",
+    "monthsRemaining": "Қалған айлар",
+    "depreciationAutoNote": "Амортизация автоматты түрде есептеледі",
+    "assignedTo": "Қызметкерге тағайындалған",
+    "assignedDate": "Тағайындау күні",
+    "close": "Жабу"
+  },
+  "depreciationModal": {
+    "title": "Амортизацияны есептеу",
+    "item": "Тауар",
+    "type": "Түрі",
+    "year": "жыл",
+    "months": "ай",
+    "depreciationRate": "Амортизация нормасы",
+    "originalCost": "Бастапқы құны",
+    "yearlyDepreciation": "Жылдық амортизация",
+    "monthlyDepreciation": "Айлық амортизация",
+    "accumulatedDepreciation": "Жинақталған амортизация",
+    "monthsDepreciated": "Амортизацияланған айлар",
+    "residualValue": "Қалдық құны",
+    "monthsLabel": "Есептеу үшін айлар саны:",
+    "preview": "{{months}} айға амортизация есептеледі",
+    "cancel": "Болдырмау",
+    "confirm": "Есептеу"
+  },
+  "confirm": {
+    "writeOffTitle": "Активті есептен шығару керек пе?",
+    "writeOffText": "Сіз бұл активті есептен шығарғыңыз келетініне сенімдісіз бе?",
+    "writeOffConfirm": "Есептен шығару",
+    "cancel": "Болдырмау"
+  },
+  "messages": {
+    "error": "Деректерді жүктеу қатесі",
+    "noResults": "Нәтижелер жоқ",
+    "assignSuccessTitle": "Сәтті",
+    "assignSuccessText": "Актив сәтті тағайындалды",
+    "assignErrorText": "Активті тағайындау қатесі",
+    "returnSuccessTitle": "Сәтті",
+    "returnSuccessText": "Актив сәтті қайтарылды",
+    "returnErrorText": "Активті қайтару қатесі",
+    "depreciateSuccessTitle": "Сәтті",
+    "depreciateSuccessText": "Амортизация сәтті есептелді",
+    "depreciateErrorText": "Амортизацияны есептеу қатесі",
+    "writeOffSuccessTitle": "Сәтті",
+    "writeOffSuccessText": "Актив сәтті есептен шығарылды",
+    "writeOffErrorText": "Активті есептен шығару қатесі",
+    "errorTitle": "Қате"
+  },
+  "loading": "Жүктелуде...",
+  "actions": {
+    "open": "Ашу",
+    "assign": "Тағайындау",
+    "return": "Қайтару",
+    "depreciate": "Амортизациялау",
+    "writeOff": "Есептен шығару",
+    "back": "Артқа"
+  },
+  "writeOff": {
+    "defaultReason": "Активті есептен шығару"
+  },
+  "tooltip": {
+    "depreciationRate": "Амортизация нормасы",
+    "year": "жыл",
+    "originalCost": "Бастапқы құны",
+    "monthlyDepreciation": "Айлық амортизация",
+    "accumulated": "Жинақталған амортизация",
+    "nextDepreciation": "Келесі есептеу",
+    "monthsDepreciated": "Амортизацияланған айлар",
+    "months": "ай",
+    "residualValue": "Қалдық құны"
+  },
+  "prompt": {
+    "ok": "Жабу"
+  },
+  "qrModal": {
+    "title": "Тауар QR-коды",
+    "hint": "Тауар бетіне жылдам қол жеткізу үшін сканерлеңіз",
+    "close": "Жабу",
+    "download": "Жүктеу"
+  },
+  "publicUnit": {
+    "cost": "Құны",
+    "depreciation": "Амортизация",
+    "vendor": "Жеткізуші",
+    "responsiblePerson": "Материалдық жауапты тұлға",
+    "unitPrice": "Бірлік бағасы",
+    "totalWithDelivery": "Жеткізумен бірге",
+    "vat": "ҚҚС",
+    "annualRate": "Жылдық норма",
+    "usefulLife": "Пайдалану мерзімі",
+    "accumulatedDepreciation": "Жинақталған амортизация",
+    "residualValue": "Қалдық құны",
+    "vendorName": "Атауы",
+    "vendorBin": "БСН",
+    "invoiceNumber": "Счет-фактура",
+    "accountCode": "Есеп коды",
+    "receiptDate": "Түсу күні",
+    "quantity": "Саны",
+    "assignmentDocument": "Қабылдау-тапсыру актісі",
+    "notAssigned": "Тағайындалмаған",
+    "barcode": "Штрих-код",
+    "serialNumber": "Сериялық нөмір",
+    "createdAt": "Құрылған күні",
+    "months": "ай",
+    "unit": "дана",
+    "noBarcode": "Штрих-код көрсетілмеген",
+    "notFound": "Бірлік табылмады",
+    "notFoundDescription": "Көрсетілген штрих-кодты бірлік жүйеде табылмады.",
+    "errorDescription": "Деректерді жүктеу кезінде қате орын алды.",
+    "pageTitle": "Актив туралы ақпарат",
+    "pageTitleWithBrand": "— Бухгалтерия | SEN Group"
+  },
+  "prompt_form": {
+    "confirm": "Растау",
+    "cancel": "Бас тарту",
+    "submitting": "Жіберілуде..."
+  }
+}
+

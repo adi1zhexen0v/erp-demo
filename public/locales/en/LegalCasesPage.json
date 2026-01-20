@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Legal Cases — Legal Support | SEN Group",
+    "description": "Legal Cases in the SEN Group management system."
+  },
+  "breadcrumbs": {
+    "legal": "Legal Support",
+    "cases": "Legal Cases"
+  },
+  "header": {
+    "title": "Legal Cases",
+    "newForm": "Book a consultation"
+  },
+  "cards": {
+    "status": {
+      "inProgress": "In progress"
+    },
+    "priority": {
+      "label": "Priority",
+      "medium": "Medium"
+    },
+    "fields": {
+      "startDate": "Start date"
+    },
+    "actions": {
+      "edit": "Edit",
+      "details": "Details"
+    }
+  }
+}

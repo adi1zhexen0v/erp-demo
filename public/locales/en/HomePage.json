@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "Home",
+    "description": "Financial dashboard"
+  },
+  "title": "Home",
+  "welcome": {
+    "title": "Welcome back, {{userName}}",
+    "subtitle": "Below is a brief overview of the financial status of NGO «Sen Digital» for the current year.",
+    "fallbackTitle": "Welcome"
+  },
+  "periodSelector": {
+    "title": "Period selection",
+    "year": "Year",
+    "month": "Month",
+    "allYear": "Full year",
+    "refresh": "Refresh"
+  },
+  "summary": {
+    "expenses": "Expenses",
+    "liabilities": "Liabilities",
+    "cash": "Cash",
+    "total": "Total",
+    "noAccounts": "No data"
+  },
+  "breakdown": {
+    "title": "Account breakdown",
+    "back": "Back",
+    "byCounter": "By counter-accounts",
+    "bySource": "By sources",
+    "account": "Account",
+    "amount": "Amount",
+    "percentage": "Percentage",
+    "entries": "Entries"
+  },
+  "entries": {
+    "title": "Journal entries",
+    "back": "Back",
+    "date": "Date",
+    "debit": "Debit",
+    "credit": "Credit",
+    "amount": "Amount",
+    "description": "Description",
+    "noEntries": "No entries",
+    "total": "Total"
+  },
+  "loading": {
+    "summary": "Loading summary...",
+    "breakdown": "Loading breakdown...",
+    "entries": "Loading entries..."
+  },
+  "errors": {
+    "loadSummary": "Error loading summary",
+    "loadBreakdown": "Error loading breakdown",
+    "loadEntries": "Error loading entries"
+  }
+}
+

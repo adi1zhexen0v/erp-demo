@@ -1,0 +1,68 @@
+{
+  "loading": "Жүктелуде...",
+  "loadingCities": "Қалалар тізімі жүктелуде...",
+  "statusIndicator": {
+    "amendment": {
+      "cancelled": "Бас тартылды",
+      "applied": "Қолданылды",
+      "default": "Күтуде"
+    },
+    "jobApplication": {
+      "contractSigned": "Келісім қол қойылған",
+      "decision": "Қабылданбады",
+      "jobAppPending": "Дайындауда",
+      "jobAppReview": "Өтініш бойынша шешім күтуде",
+      "default": "Бекітілді"
+    },
+    "order": {
+      "orderPending": "Күтуде",
+      "default": "Аяқталды"
+    }
+  },
+  "prompt_form": {
+    "confirm": "Растау",
+    "cancel": "Бас тарту",
+    "submitting": "Жіберілуде..."
+  },
+  "workingDays": {
+    "validation": {
+      "minDays": "Кемінде 1 күнді таңдау қажет",
+      "maxDays": "Максимум 6 күнді таңдауға болады"
+    }
+  },
+  "trustMeStatus": {
+    "draft": "Жоба",
+    "notSigned": "Екі тарап та қол қоймаған",
+    "signedByCompany": "Компания қол қойды",
+    "signedByClient": "Клиент қол қойды",
+    "fullySigned": "Толығымен қол қойылған",
+    "revokedByCompany": "Компания тартқан",
+    "companyInitiatedTermination": "Компания бұзуды бастады",
+    "clientInitiatedTermination": "Клиент бұзуды бастады",
+    "clientRefusedTermination": "Клиент бұзудан бас тартты",
+    "terminated": "Бұзылған",
+    "clientRefusedToSign": "Клиент қол қоюдан бас тартты"
+  },
+  "organizationTypes": {
+    "llp": {
+      "fullTitle": "Жауапкершілігі шектеулі серіктестік",
+      "abbreviation": "ЖШС"
+    },
+    "llc": {
+      "fullTitle": "Жауапкершілігі шектеулі қоғам",
+      "abbreviation": "ЖШҚ"
+    },
+    "jsc": {
+      "fullTitle": "Акционерлік қоғам",
+      "abbreviation": "АҚ"
+    },
+    "ip": {
+      "fullTitle": "Жеке кәсіпкер",
+      "abbreviation": "ЖК"
+    },
+    "pf": {
+      "fullTitle": "Қоғамдық қор",
+      "abbreviation": "ҚҚ"
+    }
+  }
+}

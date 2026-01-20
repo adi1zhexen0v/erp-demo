@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "title": "Rentals — Accounting | SEN Group",
+    "description": "Manage vehicle and premises rentals"
+  },
+  "title": "Rentals",
+  "breadcrumbs": {
+    "accounting": "Accounting",
+    "rentals": "Rentals"
+  },
+  "tabs": {
+    "contracts": "Contracts",
+    "payments": "Payments"
+  },
+  "header": {
+    "createPayment": "Create Payment"
+  },
+  "filters": {
+    "searchPlaceholder": "Search by vendor, AVR number...",
+    "period": "AVR Period",
+    "typePlaceholder": "Rental Type",
+    "statusPlaceholder": "Status",
+    "reset": "Reset",
+    "type": {
+      "vehicle": "Vehicle Rental",
+      "premises": "Premises Rental"
+    },
+    "status": {
+      "draft": "Draft",
+      "approved": "Approved",
+      "paid": "Paid"
+    }
+  },
+  "section": {
+    "title": "Payments",
+    "subtitle": "List of rental payments"
+  },
+  "table": {
+    "paymentNumber": "Payment #",
+    "type": "Type",
+    "contract": "Contract",
+    "period": "Period",
+    "amount": "Amount",
+    "status": "Status",
+    "avrDate": "AVR Date",
+    "actions": "Actions",
+    "actionItems": {
+      "view": "View",
+      "edit": "Edit",
+      "approve": "Approve",
+      "approving": "Approving...",
+      "markPaid": "Mark as Paid",
+      "markingPaid": "Marking...",
+      "delete": "Delete",
+      "deleting": "Deleting..."
+    }
+  },
+  "status": {
+    "draft": "Draft",
+    "approved": "Approved",
+    "paid": "Paid"
+  },
+  "modals": {
+    "create": {
+      "title": "Create Payment",
+      "uploadDocument": "Upload AVR Document",
+      "type": {
+        "label": "Rental Type",
+        "vehicle": "Vehicle Rental",
+        "premises": "Premises Rental"
+      },
+      "vehicleContract": "Vehicle Rental Contract",
+      "premisesContract": "Premises Rental Contract",
+      "selectContract": "Select Contract",
+      "vendorName": "Vendor Name",
+      "vendorNamePlaceholder": "Enter vendor name",
+      "vendorBin": "Vendor BIN (optional)",
+      "vendorBinPlaceholder": "Enter BIN",
+      "month": "Month",
+      "selectMonth": "Select Month",
+      "year": "Year",
+      "selectYear": "Select Year",
+      "period": "Period",
+      "periodStart": "Period Start",
+      "periodEnd": "Period End",
+      "periodDescription": "Period Description",
+      "periodDescriptionPlaceholder": "e.g. January 2026",
+      "description": "Service Description",
+      "descriptionPlaceholder": "Rental service description",
+      "amountTotal": "Amount with VAT",
+      "vatRate": "VAT Rate",
+      "avrNumber": "AVR Number",
+      "avrNumberPlaceholder": "AVR-001",
+      "avrDate": "AVR Date",
+      "avrDateError": "AVR date cannot be earlier than period start date",
+      "ocrSuccess": "Data successfully extracted from document",
+      "vendorCreationFailed": "Failed to create vendor. Payment will continue without vendor ID.",
+      "noContractsAvailable": "No signed contracts available",
+      "selectContractFirst": "Please select a contract first",
+      "uploadOrManual": "You can upload a document scan or enter data manually",
+      "contract": "Contract",
+      "create": "Create",
+      "creating": "Creating...",
+      "cancel": "Cancel"
+    },
+    "edit": {
+      "title": "Edit Payment",
+      "periodStart": "Period Start",
+      "periodEnd": "Period End",
+      "periodDescription": "Period Description",
+      "periodDescriptionPlaceholder": "e.g. January 2026",
+      "amountTotal": "Amount with VAT",
+      "vatRate": "VAT Rate",
+      "avrNumber": "AVR Number",
+      "avrNumberPlaceholder": "AVR-001",
+      "avrDate": "AVR Date",
+      "update": "Save",
+      "updating": "Saving...",
+      "cancel": "Cancel"
+    },
+    "details": {
+      "title": "Payment Details",
+      "loading": "Loading...",
+      "paymentNumber": "Payment Number",
+      "type": "Rental Type",
+      "period": "Period",
+      "status": "Status",
+      "amountNet": "Amount without VAT",
+      "vatAmount": "VAT Amount",
+      "amountTotal": "Amount with VAT",
+      "vatRate": "VAT Rate",
+      "avrNumber": "AVR Number",
+      "avrDate": "AVR Date",
+      "vendor": "Vendor",
+      "vendorBin": "Vendor BIN",
+      "approvedAt": "Approved",
+      "paidAt": "Paid"
+    }
+  },
+  "messages": {
+    "noResults": "No results",
+    "error": "An error occurred",
+    "errorTitle": "Error",
+    "createSuccessTitle": "Payment created",
+    "createSuccessText": "Payment created successfully",
+    "createErrorText": "Failed to create payment",
+    "updateSuccessTitle": "Payment updated",
+    "updateSuccessText": "Payment updated successfully",
+    "updateErrorText": "Failed to update payment",
+    "approveSuccessTitle": "Payment approved",
+    "approveSuccessText": "Payment approved successfully",
+    "approveErrorText": "Failed to approve payment",
+    "markPaidSuccessTitle": "Payment marked as paid",
+    "markPaidSuccessText": "Payment marked as paid successfully",
+    "markPaidErrorText": "Failed to mark payment as paid",
+    "deleteSuccessTitle": "Payment deleted",
+    "deleteSuccessText": "Payment deleted successfully",
+    "deleteErrorText": "Failed to delete payment",
+    "budgetLimitExceededTitle": "Budget Limit Exceeded",
+    "budgetLimitExceededText": "Budget limit for section \"{{section}}\" exceeded. Limit: {{limit}}, Spent: {{spent}}, Requested: {{requested}}, Available: {{available}}",
+    "ocrErrorText": "Failed to extract data from document",
+    "loader": {
+      "extractingOCR": {
+        "text": "Extracting data from document",
+        "additionalText": "Please wait"
+      }
+    }
+  },
+  "contracts": {
+    "vehicleFormat": "Contract #{{id}} - {{details}}",
+    "premisesFormat": "Contract #{{id}} - {{details}}"
+  },
+  "confirm": {
+    "approveTitle": "Approve payment?",
+    "approveText": "Are you sure you want to approve this payment?",
+    "approveConfirm": "Approve",
+    "markPaidTitle": "Mark as paid?",
+    "markPaidText": "Are you sure you want to mark this payment as paid?",
+    "markPaidConfirm": "Mark",
+    "deleteTitle": "Delete payment?",
+    "deleteText": "Are you sure you want to delete this payment?",
+    "deleteConfirm": "Delete",
+    "cancel": "Cancel"
+  },
+  "prompt": {
+    "ok": "Close"
+  },
+  "prompt_form": {
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "submitting": "Submitting..."
+  }
+}

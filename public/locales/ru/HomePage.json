@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "Главная",
+    "description": "Финансовый дашборд"
+  },
+  "title": "Главная",
+  "welcome": {
+    "title": "С возвращением, {{userName}}",
+    "subtitle": "Ниже — краткий обзор финансового состояния НПО «Sen Digital» за текущий год.",
+    "fallbackTitle": "Добро пожаловать"
+  },
+  "periodSelector": {
+    "title": "Выбор периода",
+    "year": "Год",
+    "month": "Месяц",
+    "allYear": "Весь год",
+    "refresh": "Обновить"
+  },
+  "summary": {
+    "expenses": "Расходы",
+    "liabilities": "Обязательства",
+    "cash": "Денежные средства",
+    "total": "Итого",
+    "noAccounts": "Нет данных"
+  },
+  "breakdown": {
+    "title": "Детализация счета",
+    "back": "Назад",
+    "byCounter": "По корреспондентским счетам",
+    "bySource": "По источникам",
+    "account": "Счет",
+    "amount": "Сумма",
+    "percentage": "Процент",
+    "entries": "Записей"
+  },
+  "entries": {
+    "title": "Журнальные записи",
+    "back": "Назад",
+    "date": "Дата",
+    "debit": "Дебет",
+    "credit": "Кредит",
+    "amount": "Сумма",
+    "description": "Описание",
+    "noEntries": "Нет записей",
+    "total": "Итого"
+  },
+  "loading": {
+    "summary": "Загрузка сводки...",
+    "breakdown": "Загрузка детализации...",
+    "entries": "Загрузка записей..."
+  },
+  "errors": {
+    "loadSummary": "Ошибка загрузки сводки",
+    "loadBreakdown": "Ошибка загрузки детализации",
+    "loadEntries": "Ошибка загрузки записей"
+  }
+}
+

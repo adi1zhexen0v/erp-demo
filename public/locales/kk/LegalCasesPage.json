@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Құқықтық істер — Заңгерлік көмек | SEN Group",
+    "description": "Құқықтық істер в системе управления SEN Group."
+  },
+  "breadcrumbs": {
+    "legal": "Заңгерлік көмек",
+    "cases": "Құқықтық істер"
+  },
+  "header": {
+    "title": "Құқықтық істер",
+    "newForm": "Консультацияға жазылу"
+  },
+  "cards": {
+    "status": {
+      "inProgress": "Жүргізілуде"
+    },
+    "priority": {
+      "label": "Басымдық",
+      "medium": "Орташа"
+    },
+    "fields": {
+      "startDate": "Басталу күні"
+    },
+    "actions": {
+      "edit": "Өңдеу",
+      "details": "Толығырақ"
+    }
+  }
+}
